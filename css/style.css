@@ -555,7 +555,6 @@ footer li {
 }
 footer a {
   display: inline;
-  text-transform: uppercase;
   text-decoration: none;
   color: var(--soft-white);
   font-size: var(--paragraphs);
