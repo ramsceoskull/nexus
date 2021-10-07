@@ -538,7 +538,8 @@ footer {
   width: 20vw;
 }
 .logo-container h3 {
-  font-size: 10rem;
+  color: var(--soft-white);
+  font-size: 12rem;
 }
 footer ul {
   width: 70%;
