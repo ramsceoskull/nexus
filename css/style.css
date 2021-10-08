@@ -63,8 +63,8 @@ header {
 }
 
 header img {
-  width: 160px;
-  height: 160px;
+  width: 100px;
+  height: 100px;
   align-self: center;
 }
 
@@ -76,18 +76,29 @@ header img {
   margin-top: 5px;
   align-self: center;
   text-align: center;
+  color: var(--just-white);
 }
 
-.header__title-container h1 {
-  font-size: var(--title-h2);
-  font-weight: bold;
+header > section {
+  display: flex;
+  align-self: center;
+  align-items: center;
+}
+header > section h1 {
+  color: var(--red-variation);
+  font-size: var(--title-h1);
   line-height: 26rem;
-  color: var(--just-white);
+}
+
+.header__title-container h2 {
+  margin-top: 20px;
+  font-size: var(--title-h3);
+  line-height: 26rem;
 }
 
 .header__title-container p {
   margin-top: 25px;
-  font-size: var(--paragraphs);
+  font-size: var(--title-h5);
   font-weight: 600;
   line-height: 18rem;
   color: var(--softRed-variation);
@@ -110,7 +121,7 @@ header img {
   font-size: var(--paragraphs);
   box-shadow: 0rem 4rem 8rem rgba(242, 106, 79, 0.4);
   background-color: var(--soft-white);
-  color: var(--soft-black);
+  color: var(--warm-black);
 }
 
 .header-button span {
@@ -636,21 +647,11 @@ footer {
   align-items: center;
   background-color: var(--softDark-primary);
 }
-.logo-container {
-  text-align: center;
-  width: 30%;
-}
-.logo-container img {
-  width: 20vw;
-}
-.logo-container p {
-  color: var(--soft-white);
-  font-size: 12rem;
-}
-footer ul {
+footer nav {
+  display: flex;
+  flex-direction: column;
   width: 70%;
   transition: all 1s ease;
-  list-style: none;
 }
 footer li {
   width: max-content;
@@ -659,12 +660,18 @@ footer li {
   border-bottom: 2px solid transparent;
   transition: all 1s ease;
   line-height: normal;
+  list-style: none;
 }
 footer a {
   display: inline;
   text-decoration: none;
   color: var(--soft-white);
   font-size: var(--paragraphs);
+}
+.icons img {
+  height: 15px;
+  padding-top: 5px;
+  margin-right: 5px;
 }
 footer a:hover {
   transition: all 1s;
@@ -674,8 +681,14 @@ footer li:hover {
   padding-bottom: 5px;
   border-bottom: 2px solid var(--softRed-variation);
 }
-.icons img {
-  height: 15px;
-  padding-top: 5px;
-  margin-right: 5px;
+.logo-container {
+  text-align: center;
+  width: 30%;
+}
+.logo-container img {
+  width: 20vw;
+}
+.logo-container a {
+  color: var(--soft-white);
+  font-size: 12rem;
 }
