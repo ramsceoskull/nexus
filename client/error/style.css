@@ -110,7 +110,15 @@ footer section {
   width: 14px;
   margin-right: 5px;
 }
+.right {
+  text-align: center;
+}
 .right img {
-  height: 10vh;
-  padding-bottom: 10px;
+  height: 6vh;
+  /* padding-bottom: 10px; */
+}
+.right a {
+  text-decoration: none;
+  font-size: 10rem;
+  color: #FFFFFF;
 }
