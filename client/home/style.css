@@ -19,11 +19,11 @@
   --black: #201E1C;
   --warm-black: #282623;
   /* Fonts-sizes */
-  --title-h1: 28rem;
-  --title-h2: 24rem;
+  --title-h1: 32rem;
+  --title-h2: 26rem;
   --title-h3: 22rem;
-  --title-h4: 20rem;
-  --title-h5: 18rem;
+  --title-h4: 18rem;
+  --title-h5: 16rem;
   --lineS-h: 28rem;
   --paragraphs: 14rem;
   --lineS-p: 18rem;
@@ -95,11 +95,11 @@ header {
   text-decoration: none;
 }
 .header--logo img {
-  height: 8vh;
+  height: 9vh;
 }
 .header--logo a {
   font-weight: 700;
-  font-size: var(--title-h5);
+  font-size: var(--title-h3);
   color: var(--softRed-variation);
 }
 .header--logo a:hover {
@@ -113,14 +113,14 @@ header {
   margin-left: auto;
 }
 .header__menu a {
-  margin: 0 6px;
+  margin: 0 8px;
   text-decoration: none;
   transition: all 0.3s ease;
   opacity: .7;
 }
 .menu--home, .menu--aboutUs, .menu--gallery, .menu--support {
-  width: 18px;
-  height: 18px;
+  width: 25px;
+  height: 25px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
