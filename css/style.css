@@ -19,11 +19,11 @@
   --black: #201E1C;
   --warm-black: #282623;
   /* Fonts-sizes */
-  --title-h1: 28rem;
-  --title-h2: 24rem;
+  --title-h1: 32rem;
+  --title-h2: 26rem;
   --title-h3: 22rem;
-  --title-h4: 20rem;
-  --title-h5: 18rem;
+  --title-h4: 18rem;
+  --title-h5: 16rem;
   --lineS-h: 28rem;
   --paragraphs: 14rem;
   --lineS-p: 18rem;
@@ -98,7 +98,7 @@ header > section h1 {
 
 .header__title-container p {
   margin-top: 25px;
-  font-size: var(--title-h5);
+  font-size: 16rem;
   font-weight: 600;
   line-height: 18rem;
   color: var(--softRed-variation);
@@ -548,7 +548,7 @@ main {
   padding: 0 20px;
   background-color: var(--just-white);
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(242, 106, 79, 0.35);
+  box-shadow: 0 4px 8px rgba(242, 106, 79, 0.6);
 }
 
 .membership {
