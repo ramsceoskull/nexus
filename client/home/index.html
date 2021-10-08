@@ -4,17 +4,52 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Nunito:wght@200;300;400;600;700;800;900&family=Oswald:wght@200;300;400;500;700&display=swap" rel="stylesheet">
   <link rel="icon" href="../../assets/icons/1x/home-black.png">
   <link rel="stylesheet" href="./style.css">
   <title>Home | Nexus</title>
 </head>
 <body>
   <header>
-    <h1>Aquí va un header c:</h1>
-  </header>
-  <main></main>
+    <div class="btn-menu">
+      <label for="btn-menu">☰</label>
+      <figure class="header--logo">
+        <a href="./">
+          <img src="../../assets/icons/logo.png" alt="Logo de Nexus Store">Nexus Store
+        </a>
+      </figure>
+    </div>
+    <nav class="header__menu">
+      <a href="./" class="menu--home"></a>
+      <a href="#" class="menu--gallery"></a>
+      <a href="#" class="menu--aboutUs"></a>
+      <a href="#" class="menu--support"></a>
+    </nav>
+	</header>
+	<div class="capa"></div>
+  <input type="checkbox" id="btn-menu">
+  <div class="container__menu">
+    <aside class="menu__cont">
+      <nav>
+        <a href="#">Portafolio</a>
+        <a href="#">Servicios</a>
+        <a href="#">Suscribirse</a>
+        <a href="#">Facebook</a>
+        <a href="#">Youtube</a>
+        <a href="#">Instagram</a>
+      </nav>
+      <label for="btn-menu">✖️</label>
+    </aside>
+  </div>
+  <main>
+    <article></article>
+    <article></article>
+    <article></article>
+    <article></article>
+    <article></article>
+  </main>
   <footer>
-    <!-- <nav> -->
+    <nav>
       <ul class="icons">
         <li>
           <a href="mailto:ramses.lanceno@alumnos.udg.mx">
@@ -42,10 +77,9 @@
           </a>
         </li>
       </ul>
-    <!-- </nav> -->
+    </nav>
     <section class="logo-container">
-      <a href="../../"><img src="../../assets/icons/logo.png" alt="Nexus Store Logo"></a>
-      <p>Nexus ®</p>
+      <a href="../../"><img src="../../assets/icons/logo.png" alt="Nexus Store Logo"><br>Nexus ®</a>
     </section>
   </footer>
 </body>
