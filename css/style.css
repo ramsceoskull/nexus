@@ -57,14 +57,14 @@ header {
   text-align: center;
   width: 100%;
   min-width: 320px;
-  height: 315px;
+  height: auto;
   padding-bottom: 45px;
   background: linear-gradient(207.8deg, #201E1C 16.69%, #D00000 100%);
 }
 
 header img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   align-self: center;
 }
 
@@ -73,7 +73,6 @@ header img {
   min-width: 288px;
   max-width: 768px;
   height: auto;
-  margin-top: 5px;
   align-self: center;
   text-align: center;
   color: var(--just-white);
@@ -86,13 +85,13 @@ header > section {
 }
 header > section h1 {
   color: var(--red-variation);
-  font-size: var(--title-h1);
+  font-size: 36rem;
   line-height: 26rem;
 }
 
 .header__title-container h2 {
-  margin-top: 20px;
-  font-size: var(--title-h3);
+  margin-top: 10px;
+  font-size: var(--title-h2);
   line-height: 26rem;
 }
 
