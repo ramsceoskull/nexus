@@ -107,7 +107,8 @@ footer section {
 }
 
 .left img {
-  width: 14px;
+  width: 15px;
+  height: 15px;
   margin-right: 5px;
 }
 .right {
@@ -115,7 +116,6 @@ footer section {
 }
 .right img {
   height: 6vh;
-  /* padding-bottom: 10px; */
 }
 .right a {
   text-decoration: none;
