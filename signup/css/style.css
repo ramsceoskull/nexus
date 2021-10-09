@@ -57,7 +57,7 @@ body {
 header {
   display: flex;
   width: inherit;
-  height: 15vh;
+  height: 17vh;
   align-items: center;
   justify-content: center;
 }
@@ -85,12 +85,12 @@ main {
 }
 .signup__container {
   width: inherit;
-  height: inherit;
+  height: 65vh;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   margin: auto;
-  padding: 0 20px 40px;
+  padding: 0 40px 80px;
   color: white;
 }
 .signup__container .title {
@@ -120,7 +120,8 @@ main {
 .signup__container--form .button {
   font-family: 'Mulish', sans-serif;
   height: 50px;
-  margin: 10px 15px;
+  margin: 0 auto;
+  padding: 0 40px;
   letter-spacing: 1px;
   border-radius: 40px;
   border: none;
@@ -152,7 +153,7 @@ main {
 /* Footer */
 footer {
   width: inherit;
-  height: 15vh;
+  height: 13vh;
 }
 footer nav {
   height: inherit;

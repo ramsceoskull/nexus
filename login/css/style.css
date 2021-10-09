@@ -57,12 +57,12 @@ body {
 header {
   display: flex;
   width: inherit;
-  height: 12vh;
+  height: 17vh;
   align-items: center;
   justify-content: center;
 }
 header img {
-  height: 12vh;
+  height: 15vh;
 }
 header a {
   display: flex;
@@ -78,7 +78,7 @@ header a {
 /* Main */
 main {
   width: inherit;
-  height: 75vh;
+  height: 70vh;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -90,7 +90,7 @@ main {
   flex-direction: column;
   justify-content: space-around;
   margin: auto;
-  padding: 0 20px 40px;
+  padding: 0 40px 80px;
   color: white;
 }
 .login__container .title {
@@ -121,7 +121,8 @@ main {
   font-family: 'Mulish', sans-serif;
   display: flex;
   height: 50px;
-  margin: 10px 15px;
+  margin: 0 auto;
+  padding: 0 40px;
   justify-content: center;
   align-items: center;
   letter-spacing: 1px;
