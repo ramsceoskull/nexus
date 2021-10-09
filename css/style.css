@@ -58,7 +58,7 @@ header {
   width: 100%;
   min-width: 320px;
   height: auto;
-  padding-bottom: 45px;
+  padding: 35px 0 55px;
   background: linear-gradient(207.8deg, #201E1C 16.69%, #D00000 100%);
 }
 
@@ -75,7 +75,7 @@ header img {
 }
 header > section h1 {
   margin-left: -5px;
-  font-size: 36rem;
+  font-size: var(--title-h3);
   color: var(--red-variation);
 }
 
