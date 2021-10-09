@@ -113,14 +113,14 @@ header {
   margin-left: auto;
 }
 .header__menu a {
-  margin: 0 8px;
+  margin: 0 10px;
   text-decoration: none;
   transition: all 0.3s ease;
   opacity: .7;
 }
 .menu--home, .menu--cart, .menu--gallery, .menu--support {
-  width: 22px;
-  height: 22px;
+  width: 25px;
+  height: 25px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
