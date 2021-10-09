@@ -121,7 +121,7 @@ main {
   font-family: 'Mulish', sans-serif;
   height: 50px;
   margin: 0 auto;
-  padding: 0 40px;
+  padding: 0 60px;
   letter-spacing: 1px;
   border-radius: 40px;
   border: none;
@@ -133,6 +133,7 @@ main {
 }
 .signup__container--log {
   display: flex;
+  margin-top: 20px;
   align-items: center;
   justify-content: center;
   font-size: var(--title-h5);
