@@ -379,7 +379,7 @@ main {
   background-repeat: no-repeat;
   width: 70px;
   height: 70px;
-  top: calc(0% - 35px);
+  top: calc(0% - 30px);
   left: calc(50% - 35px);
 }
 
