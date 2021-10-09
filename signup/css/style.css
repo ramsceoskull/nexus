@@ -84,18 +84,15 @@ main {
   flex-direction: column;
 }
 .signup__container {
-  width: 75%;
+  width: inherit;
   max-width: 320px;
-  height: 65vh;
+  height: inherit;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   margin: auto;
-  padding: 0 20px 40px;
+  padding: 0 20px 20px;
   color: white;
-  border-radius: 20px;
-  border: 3px solid var(--color-primary);
-  background-color: rgba(255, 255, 255, .1);
 }
 .signup__container .title {
   font-family: var(--font2);
@@ -108,14 +105,14 @@ main {
 }
 .signup__container--form .input {
   font-family: 'Mulish', sans-serif;
-  height: 35px;
-  margin: 0 5px 10px;
+  height: 40px;
+  margin: 0 0 20px;
   padding: 0 10px;
   outline: none;
   border: 0;
   border-bottom: 2px solid white;
   background-color: transparent;
-  font-size: var(--paragraphs);
+  font-size: var(--title-h4);
   color: white;
 }
 ::placeholder {
@@ -123,9 +120,9 @@ main {
 }
 .signup__container--form .button {
   font-family: 'Mulish', sans-serif;
-  height: auto;
+  height: 50;
   margin: 10px 15px;
-  padding: 5px;
+  padding: 10px;
   letter-spacing: 1px;
   border-radius: 20px;
   border: none;
