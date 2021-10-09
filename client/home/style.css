@@ -118,7 +118,7 @@ header {
   transition: all 0.3s ease;
   opacity: .7;
 }
-.menu--home, .menu--aboutUs, .menu--gallery, .menu--support {
+.menu--home, .menu--cart, .menu--gallery, .menu--support {
   width: 22px;
   height: 22px;
   background-position: center;
@@ -126,13 +126,15 @@ header {
   background-size: cover;
 }
 .header__menu .menu--home {
+  display: none;
   background-image: url('../../assets/icons/1x/home-white.png');
 }
 .header__menu .menu--gallery {
+  display: none;
   background-image: url('../../assets/svg/collections-white.svg');
 }
-.header__menu .menu--aboutUs {
-  background-image: url('../../assets/svg/contact-white.svg');
+.header__menu .menu--cart {
+  background-image: url('../../assets/svg/cart-white.svg');
 }
 .header__menu .menu--support {
   background-image: url('../../assets/svg/support-white.svg');
