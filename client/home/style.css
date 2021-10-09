@@ -110,7 +110,7 @@ header {
   display: flex;
   width: auto;
   align-items: center;
-  margin-left: auto;
+  margin: 0 10px 0 auto;
 }
 .header__menu a {
   margin: 0 10px;
