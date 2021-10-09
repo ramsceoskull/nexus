@@ -27,6 +27,7 @@
   --lineS-h: 28rem;
   --paragraphs: 14rem;
   --lineS-p: 18rem;
+  --lineS-h: 28rem;
   /* Fonts */
   --font1: 'Nunito', sans-serif;
   --font2: 'Lato', sans-serif;
@@ -74,7 +75,6 @@ header img {
   align-self: center;
 }
 header > section h1 {
-  margin-left: -5px;
   font-size: var(--title-h3);
   color: var(--red-variation);
 }
@@ -195,7 +195,7 @@ main {
   min-width: 235px;
   max-width: 500px;
   height: 360px;
-  font-family: 'Inter', sans-serif;
+  font-family: var(--font2);
   align-items: center;
   text-align: left;
 }
@@ -377,10 +377,10 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 70px;
-  height: 70px;
-  top: calc(0% - 30px);
-  left: calc(50% - 35px);
+  width: 90px;
+  height: 90px;
+  top: calc(0% - 40px);
+  left: calc(50% - 45px);
 }
 
 .product-detail--title {
@@ -395,7 +395,7 @@ main {
   margin-bottom: 30px;
   font-weight: bold;
   font-size: var(--title-h2);
-  /* line-height: var(--line-spacing-h); */
+  line-height: var(--lineS-h);
   color: var(--soft-white);
 }
 
@@ -445,7 +445,7 @@ main {
   margin-bottom: 15px;
   font-size: var(--title-h5);
   font-weight: bold;
-  /* line-height: var(--line-spacing); */
+  line-height: var(--lineS-h);
   color: var(--soft-white);
 }
 
@@ -476,11 +476,11 @@ main {
   position: absolute;
   width: 100%;
   top: calc(10%);
-  padding: 10px 0;
+  padding: 20px 0;
   /* padding-top: 40px; */
   font-size: var(--title-h2);
   font-weight: bold;
-  /* line-height: var(--line-spacing-h); */
+  line-height: var(--lineS-h);
   color: var(--softBlue-variation);
   background-color: rgba(0, 0, 0, .5);
 }
@@ -503,7 +503,7 @@ main {
 .plans--title h2 {
   font-size: var(--title-h2);
   font-weight: bold;
-  /* line-height: var(--line-spacing-h); */
+  line-height: var(--lineS-h);
   color: var(--warm-black);
 }
 
