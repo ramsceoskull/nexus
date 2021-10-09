@@ -72,7 +72,7 @@ header {
   top: 0;
   left: 0;
   padding: 0 10px;
-  border-bottom: 1px solid var(--dark-primary);
+  border-bottom: 3px solid var(--dark-primary);
   background: linear-gradient(207.8deg, #201E1C 16.69%, #D00000 100%);
 }
 .btn-menu {
@@ -223,10 +223,11 @@ footer .footer--up {
   height: auto;
   padding: 15px;
   align-items: center;
-  background-color: var(--softDark-primary);
+  background-color: var(--color-primary);
 }
 .footer--up nav {
   width: 70%;
+  padding-top: 5px;
   transition: all 1s ease;
 }
 .footer--up li {
