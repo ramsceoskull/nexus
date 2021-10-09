@@ -90,7 +90,7 @@ main {
   flex-direction: column;
   justify-content: space-around;
   margin: auto;
-  padding: 0 40px 80px;
+  padding: 0 40px 10px;
   color: white;
 }
 .login__container .title {
@@ -138,7 +138,7 @@ main {
 }
 .login__container--remember-me {
   display: flex;
-  margin: 10px 0 20px;
+  margin: 10px 0 40px;
   font-size: var(--title-h5);
 }
 .login__container--remember-me a {
@@ -151,7 +151,7 @@ main {
   text-decoration: underline;
 }
 .login__container--social-media > a > img {
-  width: 40px;
+  height: 50px;
   margin-right: 5px;
 }
 .login__container--social-media a {
@@ -161,6 +161,9 @@ main {
   text-decoration: none;
   font-size: var(--title-h5);
   color: white;
+}
+.login__container--social-media a:last-child {
+  margin: 20px 0 40px;
 }
 .login__container--social-media a:hover {
   text-decoration: underline;
