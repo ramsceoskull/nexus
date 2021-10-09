@@ -377,10 +377,10 @@ main {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  width: 90px;
-  height: 90px;
-  top: calc(0% - 40px);
-  left: calc(50% - 45px);
+  width: 100px;
+  height: 100px;
+  top: calc(0% - 45px);
+  left: calc(50% - 50px);
 }
 
 .product-detail--title {
@@ -464,7 +464,7 @@ main {
   position: relative;
   width: 100%;
   min-width: 320px;
-  height: 80vh;
+  height: 70vh;
   background-image: url('../assets/images/main-photo.jpg');
   background-size: cover;
   background-position: center;
