@@ -62,10 +62,21 @@ header {
   background: linear-gradient(207.8deg, #201E1C 16.69%, #D00000 100%);
 }
 
-header img {
-  width: 150px;
-  height: 150px;
+header > section {
+  display: flex;
   align-self: center;
+  align-items: center;
+}
+
+header img {
+  width: 70px;
+  height: 70px;
+  align-self: center;
+}
+header > section h1 {
+  margin-left: -5px;
+  font-size: 36rem;
+  color: var(--red-variation);
 }
 
 .header__title-container {
@@ -77,20 +88,8 @@ header img {
   text-align: center;
   color: var(--just-white);
 }
-
-header > section {
-  display: flex;
-  align-self: center;
-  align-items: center;
-}
-header > section h1 {
-  color: var(--red-variation);
-  font-size: 36rem;
-  line-height: 26rem;
-}
-
 .header__title-container h2 {
-  margin-top: 10px;
+  margin-top: 30px;
   font-size: var(--title-h2);
   line-height: 26rem;
 }
