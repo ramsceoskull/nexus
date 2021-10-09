@@ -1,0 +1,124 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: 'Nunito', sans-serif;
+  scroll-behavior: smooth;
+  font-size: 6.25%;
+}
+
+header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-width: 320px;
+  height: 15vh;
+}
+
+header img {
+  height: 15vh;
+  align-self: center;
+}
+header h2 {
+  color: #F26A4F;
+  font-size: 28rem;
+}
+
+body {
+  width: 100%;
+  background: linear-gradient(207.8deg, #201E1C 16.69%, #D00000 100%);
+}
+
+main {
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 40px;
+}
+
+.message__wrap {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.message__wrap--box {
+  width: auto;
+  height: auto;
+  float: left;
+}
+.message__wrap--title {
+  color: #C7C7C7;
+  font-size: 18rem;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.text {
+  text-align: center;
+  color: #FAF8F7;
+  font-size: 70rem;
+  font-family: sans-serif;
+}
+.animated {
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-30px);}
+  60% {transform: translateY(-15px);}
+}
+.bounce {
+  animation-name: bounce;
+}
+
+footer {
+  width: 100%;
+  height: 10vh;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer section {
+  display: flex;
+  align-items: center;
+}
+
+.left a {
+  text-decoration: none;
+  padding-left: 10px;
+  font-size: 14rem;
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.left a:visited {
+  color: #F26A4F;
+}
+.left a:hover {
+  text-decoration: underline;
+}
+
+.left img {
+  width: 15px;
+  height: 15px;
+  margin-right: 5px;
+}
+.right {
+  text-align: center;
+}
+.right img {
+  height: 6vh;
+}
+.right a {
+  text-decoration: none;
+  font-size: 10rem;
+  color: #FFFFFF;
+}

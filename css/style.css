@@ -547,7 +547,7 @@ main {
   padding: 0 20px;
   background-color: var(--just-white);
   border-radius: 15px;
-  box-shadow: 0 4px 8px rgba(242, 106, 79, 0.4);
+  box-shadow: 0 4px 8px rgba(242, 106, 79, 0.35);
 }
 
 .membership {
