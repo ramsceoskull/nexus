@@ -85,18 +85,17 @@ main {
 }
 .signup__container {
   width: inherit;
-  max-width: 320px;
   height: inherit;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   margin: auto;
-  padding: 0 20px 20px;
+  padding: 0 20px 40px;
   color: white;
 }
 .signup__container .title {
   font-family: var(--font2);
-  font-size: var(--title-h1);
+  font-size: 36rem;
   margin: 10px auto;
 }
 .signup__container--form {
@@ -105,14 +104,14 @@ main {
 }
 .signup__container--form .input {
   font-family: 'Mulish', sans-serif;
-  height: 40px;
-  margin: 0 0 20px;
+  height: 50px;
+  margin: 0 0 30px;
   padding: 0 10px;
   outline: none;
   border: 0;
   border-bottom: 2px solid white;
   background-color: transparent;
-  font-size: var(--title-h4);
+  font-size: var(--title-h3);
   color: white;
 }
 ::placeholder {
@@ -123,11 +122,11 @@ main {
   height: 50px;
   margin: 10px 15px;
   letter-spacing: 1px;
-  border-radius: 20px;
+  border-radius: 40px;
   border: none;
   cursor: pointer;
   background-color: rgba(255, 255, 255, .3);
-  font-size: var(--title-h5);
+  font-size: var(--title-h4);
   font-weight: bold;
   color: white;
 }
@@ -135,12 +134,12 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: var(--paragraphs);
+  font-size: var(--title-h5);
 }
 .signup__container--log a {
   padding-left: 10px;
   text-decoration: none;
-  font-size: var(--title-h5);
+  font-size: var(--title-h4);
   font-weight: bold;
   color: white;
 }
@@ -161,10 +160,10 @@ footer nav {
   flex-direction: column;
   justify-content: space-around;
   text-align: center;
-  padding: 5px 0;
+  padding: 10px 0;
 }
 footer a {
   text-decoration: none;
-  font-size: var(--paragraphs);
+  font-size: var(--title-h5);
   color: var(--just-white);
 }
