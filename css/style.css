@@ -477,7 +477,6 @@ main {
   width: 100%;
   top: calc(10%);
   padding: 20px 0;
-  /* padding-top: 40px; */
   font-size: var(--title-h2);
   font-weight: bold;
   line-height: var(--lineS-h);
@@ -488,7 +487,7 @@ main {
 .main-plans-container {
   width: 100%;
   min-width: 320px;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   text-align: center;
 }
 
@@ -539,14 +538,12 @@ main {
 .plans--card {
   position: relative;
   scroll-snap-align: center;
-    /* Permite que si el scroll se queda a medias de 2 elementos, te ayuda a elegir uno */
   width: 70%;
   min-width: 240px;
   max-width: 310px;
   height: 290rem;
   /* margin: 50rem 0 0; */
   margin: 50px 10px 0;
-    /* Alternativa en caso de que no funcione el gap */
   padding: 0 20px;
   background-color: var(--just-white);
   border-radius: 15px;
