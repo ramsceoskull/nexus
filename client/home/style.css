@@ -119,8 +119,8 @@ header {
   opacity: .7;
 }
 .menu--home, .menu--aboutUs, .menu--gallery, .menu--support {
-  width: 25px;
-  height: 25px;
+  width: 22px;
+  height: 22px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -210,13 +210,14 @@ main article {
   width: 80%;
   height: 20vh;
   margin: 20px auto;
+  border-radius: 20px;
   background-color: var(--softBlue-variation);
 }
 
 
 
 /* Footer */
-footer {
+footer .footer--up {
   display: flex;
   width: inherit;
   height: auto;
@@ -224,11 +225,11 @@ footer {
   align-items: center;
   background-color: var(--softDark-primary);
 }
-footer nav {
+.footer--up nav {
   width: 70%;
   transition: all 1s ease;
 }
-footer li {
+.footer--up li {
   width: max-content;
   margin-bottom: 5px;
   padding: 0 10px;
@@ -237,17 +238,17 @@ footer li {
   line-height: normal;
   list-style: none;
 }
-footer a {
+.footer--up a {
   display: inline;
   text-decoration: none;
   color: var(--soft-white);
   font-size: var(--paragraphs);
 }
-footer a:hover {
+.footer--up a:hover {
   transition: all 1s;
   color: var(--red-variation);
 }
-footer li:hover {
+.footer--up li:hover {
   padding-bottom: 5px;
   border-bottom: 2px solid var(--softRed-variation);
 }
@@ -265,5 +266,18 @@ footer li:hover {
 }
 .logo-container a {
   color: var(--soft-white);
+  font-size: 12rem;
+}
+.footer--down {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 5vh;
+  background-color: var(--dark-primary);
+}
+.footer--down a {
+  text-decoration: none;
+  color: white;
   font-size: 12rem;
 }
