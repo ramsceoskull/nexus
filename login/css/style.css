@@ -90,13 +90,13 @@ main {
   flex-direction: column;
   justify-content: space-around;
   margin: auto;
-  padding: 0 40px 10px;
+  padding: 0 30px 40px;
   color: white;
 }
 .login__container .title {
   font-family: var(--font2);
   font-size: 36rem;
-  margin: 10px auto;
+  margin: 10px auto 30px;
 }
 .login__container--form {
   display: flex;
@@ -138,20 +138,20 @@ main {
 }
 .login__container--remember-me {
   display: flex;
-  margin: 10px 0 40px;
-  font-size: var(--title-h5);
+  margin: 10px 0 30px;
+  font-size: var(--paragraphs);
 }
 .login__container--remember-me a {
   margin-left: auto;
   text-decoration: none;
-  font-size: var(--title-h4);
+  font-size: var(--title-h5);
   color: white;
 }
 .login__container--remember-me a:hover {
   text-decoration: underline;
 }
 .login__container--social-media > a > img {
-  height: 50px;
+  height: 40px;
   margin-right: 5px;
 }
 .login__container--social-media a {
@@ -163,7 +163,7 @@ main {
   color: white;
 }
 .login__container--social-media a:last-child {
-  margin: 20px 0 40px;
+  margin: 10px 0 20px;
 }
 .login__container--social-media a:hover {
   text-decoration: underline;

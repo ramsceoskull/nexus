@@ -31,63 +31,6 @@
           Traemos productos en base a las tendencias existentes en la diferente y amplia variedad del mundo gaming.
         </p>
       </div>
-      <section class="main-tables-container">
-        <div class="main__left-button invisible" onclick="handleChangeTable()"><span></span></div>
-        <div class="main-table" id="currenciesCard">
-          <h3 class="currency-table--title">Monedas</h3>
-          <div class="currency-table--container">
-            <table>
-              <tr>
-                <td class="table__top-left">Bitcoin</td>
-                <td class="table__top-right table__right">$ 1.96<span class="down"></span></td>
-              </tr>
-              <tr>
-                <td>Ethereum</td>
-                <td class="table__right">$ 0.07<span class="up"></span></td>
-              </tr>
-              <tr>
-                <td>Ripple</td>
-                <td class="table__right">$ 2.15<span class="down"></span></td>
-              </tr>
-              <tr>
-                <td class="table__bottom-left">Stellar</td>
-                <td class="table__bottom-right table__right">$ 4.96<span class="down"></span></td>
-              </tr>
-            </table>
-          </div>
-          <div class="currency-table--update">
-            <p><b>Actualizado:</b> 08 Oct 23:45</p>
-          </div>
-        </div>
-
-        <div class="main-table hidden" id="commissionsCard">
-          <h3 class="commissions-table--title">Comisiones</h3>
-          <div class="commissions-table--container">
-            <table>
-              <tr>
-                <td class="table__top-left">Bitrade</td>
-                <td class="table__top-right table__right">$ 12.96<span class="down"></span></td>
-              </tr>
-              <tr>
-                <td>Bitpreco</td>
-                <td class="table__right">$ 13.07<span class="up"></span></td>
-              </tr>
-              <tr>
-                <td>Novadax</td>
-                <td class="table__right">$ 13.15<span class="down"></span></td>
-              </tr>
-              <tr>
-                <td class="table__bottom-left">Coinext</td>
-                <td class="table__bottom-right table__right">$ 14.96<span class="down"></span></td>
-              </tr>
-            </table>
-          </div>
-          <div class="commissions-table--update">
-            <p><b>Actualizado:</b> 08 Oct 23:48</p>
-          </div>
-        </div>
-        <div class="main__right-button" onclick="handleChangeTable()"><span></span></div>
-      </section>
     </section>
 
     <section class="main-product-detail">
@@ -141,8 +84,65 @@
     <section id="plans" class="main-plans-container">
       <div class="plans--title">
         <h2>Escoge el plan que mejor se ajuste a ti.</h2>
-        <p> Cualquier plan te da acceso completo a nuestra plataforma.</p>
+        <p>Cualquier plan te da acceso completo a nuestra plataforma. Pero antes no olvides checar nuestros metodos de pagos.</p>
       </div>
+      <section class="main-tables-container">
+        <div class="main__left-button invisible" onclick="handleChangeTable()"><span></span></div>
+        <div class="main-table" id="methodCard">
+          <h3 class="method-table--title">Métodos</h3>
+          <div class="method-table--container">
+            <table>
+              <tr>
+                <td class="table__bottom-left">Nexus points</td>
+                <td class="table__right">$ 0.07<span class="up"></span></td>
+              </tr>
+              <tr>
+                <td>Oxxo</td>
+                <td class="table__bottom-right table__right">$ 4.96<span class="down"></span></td>
+              </tr>
+              <tr>
+                <td class="table__top-left">Paypal</td>
+                <td class="table__top-right table__right">$ 1.96<span class="up"></span></td>
+              </tr>
+              <tr>
+                <td>Banamex</td>
+                <td class="table__right">$ 2.15<span class="down"></span></td>
+              </tr>
+            </table>
+          </div>
+          <div class="method-table--update">
+            <p><b>Actualizado:</b> 10 Oct 23:45</p>
+          </div>
+        </div>
+
+        <div class="main-table hidden" id="commissionsCard">
+          <h3 class="commissions-table--title">Comisiones</h3>
+          <div class="commissions-table--container">
+            <table>
+              <tr>
+                <td class="table__bottom-left">Nexus points</td>
+                <td class="table__bottom-right table__right">$ 0.00<span class="down"></span></td>
+              </tr>
+              <tr>
+                <td>Oxxo</td>
+                <td class="table__right">$ 15.00<span class="up"></span></td>
+              </tr>
+              <tr>
+                <td class="table__top-left">Paypal</td>
+                <td class="table__top-right table__right">$ 12.96<span class="down"></span></td>
+              </tr>
+              <tr>
+                <td>Banamex</td>
+                <td class="table__right">$ 20.15<span class="down"></span></td>
+              </tr>
+            </table>
+          </div>
+          <div class="commissions-table--update">
+            <p><b>Actualizado:</b> 10 Oct 23:48</p>
+          </div>
+        </div>
+        <div class="main__right-button" onclick="handleChangeTable()"><span></span></div>
+      </section>
       <section class="plans-container--slider">
         <article class="plans--card">
           <p class="membership basic-member">Básico</p>

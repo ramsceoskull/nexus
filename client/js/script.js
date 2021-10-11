@@ -11,17 +11,17 @@ const mobileTableContainer = () => {
   document.querySelector(".main__right-button").classList.remove("hidden");
   document.querySelector(".main__left-button").classList.add("invisible");
   document.querySelector(".main__right-button").classList.remove("invisible");
-  document.getElementById("currenciesCard").classList.remove("hidden");
+  document.getElementById("methodCard").classList.remove("hidden");
   document.getElementById("commissionsCard").classList.add("hidden");
 
   let plan = document.getElementsByClassName("plans--card")[1];
-  // plan.scrollIntoView({ inline: "center" });
+  plan.scrollIntoView({ inline: "center" });
 };
 
 const tabletTableContainer = () => {
   document.querySelector(".main__right-button").classList.add("hidden");
   document.querySelector(".main__left-button").classList.add("hidden");
-  document.getElementById("currenciesCard").classList.remove("hidden");
+  document.getElementById("methodCard").classList.remove("hidden");
   document.getElementById("commissionsCard").classList.remove("hidden");
 };
 

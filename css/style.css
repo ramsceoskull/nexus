@@ -200,7 +200,7 @@ main {
   text-align: left;
 }
 
-.main-table .currency-table--title, .main-table .commissions-table--title {
+.main-table .method-table--title, .main-table .commissions-table--title {
   margin-bottom: 15rem;
   font-size: 18rem;
   font-weight: bold;
@@ -213,7 +213,7 @@ main {
   color: var(--softDark-secondary);
 }
 
-.currency-table--container, .commissions-table--container {
+.method-table--container, .commissions-table--container {
   width: 90%;
   min-width: 230px;
   max-width: 250px;
@@ -221,12 +221,12 @@ main {
   margin: 0 auto;
 }
 
-.currency-table--container table, .commissions-table--container table {
+.method-table--container table, .commissions-table--container table {
   width: 100%;
   height: 100%;
 }
 
-.currency-table--container td, .commissions-table--container td {
+.method-table--container td, .commissions-table--container td {
   width: 50%;
   font-size: 16rem;
   font-weight: 500;
@@ -236,20 +236,20 @@ main {
   padding-left: 15rem;
 }
 
-.currency-table--container .table__top-left, .commissions-table--container .table__top-left {
+.method-table--container .table__top-left, .commissions-table--container .table__top-left {
   border-radius: 15rem 0 0 0;
 }
-.currency-table--container .table__top-right, .commissions-table--container .table__top-right {
+.method-table--container .table__top-right, .commissions-table--container .table__top-right {
   border-radius: 0 15rem 0 0;
 }
-.currency-table--container .table__bottom-left, .commissions-table--container .table__bottom-left {
+.method-table--container .table__bottom-left, .commissions-table--container .table__bottom-left {
   border-radius: 0 0 0 15rem;
 }
-.currency-table--container .table__bottom-right, .commissions-table--container .table__bottom-right {
+.method-table--container .table__bottom-right, .commissions-table--container .table__bottom-right {
   border-radius: 0 0 15rem 0;
 }
 
-.currency-table--container .table__right, .commissions-table--container .table__right {
+.method-table--container .table__right, .commissions-table--container .table__right {
   padding-left: 25rem;
   font-size: 14rem;
   font-weight: normal;
@@ -257,7 +257,7 @@ main {
   color: #757575;
 }
 
-.currency-table--container .down {
+.method-table--container .down {
   display: inline-block;
   width: 15rem;
   height: 15rem;
@@ -268,7 +268,7 @@ main {
   background-repeat: no-repeat;
 }
 
-.currency-table--container .up {
+.method-table--container .up {
   display: inline-block;
   width: 15rem;
   height: 15rem;
@@ -302,7 +302,7 @@ main {
   visibility: hidden;
 }
 
-.currency-table--update, .commissions-table--update {
+.method-table--update, .commissions-table--update {
   width: 190rem;
   height: 30rem;
   margin: 0 auto;
@@ -316,7 +316,7 @@ main {
   background-color: var(--softBlue-variation);
 }
 
-.currency-table--update p, .commissions-table--update p {
+.method-table--update p, .commissions-table--update p {
   font-size: 12rem;
   font-weight: 300;
   line-height: 15rem;
@@ -487,6 +487,7 @@ main {
 .main-plans-container {
   width: 100%;
   min-width: 320px;
+  height: auto;
   padding-bottom: 40px;
   text-align: center;
 }
@@ -507,6 +508,7 @@ main {
 }
 
 .plans--title p {
+  margin-bottom: 40px;
   padding-top: 20px;
   font-size: var(--paragraphs);
   font-weight: 500;

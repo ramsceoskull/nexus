@@ -134,7 +134,6 @@ header {
   background-image: url('../../assets/svg/collections-white.svg');
 }
 .header__menu .menu--cart {
-  display: none;
   background-image: url('../../assets/svg/cart-white.svg');
 }
 .header__menu .menu--support {
@@ -202,14 +201,3 @@ header {
   color: var(--just-white);
 }
 /*Fin de Menù lateral*/
-
-
-/* Main */
-main {
-  width: inherit;
-  height: auto;
-  margin-top: 15vh;
-  padding: 10px;
-  font-size: var(--title-h5);
-  color: white;
-}

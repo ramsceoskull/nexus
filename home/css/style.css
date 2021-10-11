@@ -186,7 +186,7 @@ header {
   border-left: 5px solid transparent;
   transition: all 400ms ease;
   text-decoration: none;
-  font-size: var(--paragraphs);
+  font-size: var(--title-h4);
 }
 .menu__cont nav a:hover{
   border-left: 3px solid var(--softDark-primary);
