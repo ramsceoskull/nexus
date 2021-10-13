@@ -15,7 +15,7 @@ const mobileTableContainer = () => {
   document.getElementById("commissionsCard").classList.add("hidden");
 
   let plan = document.getElementsByClassName("plans--card")[1];
-  // plan.scrollIntoView({ inline: "center" });
+  plan.scrollIntoView({ inline: "center" });
 };
 
 const tabletTableContainer = () => {
