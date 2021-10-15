@@ -6,7 +6,7 @@
 
     $correo = $_POST['correo'];
     $contrasenna = $_POST['contrasenna'];
-    
+
     $cont = mysqli_query($conexion, "SELECT * FROM sesion WHERE correo = '$correo' ");
     while ($row = $cont->fetch_assoc()) {
         $nombre = $row['nombre'];

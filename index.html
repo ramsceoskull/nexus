@@ -17,7 +17,7 @@
       <h1>Nexus Store</h1>
     </section>
     <div class="header__title-container">
-      <h2>La próxima revolución en la compra de productos gaming.</h1>
+      <h2>La próxima revolución en la compra de productos gaming.</h2>
       <p>Nexus Store...<br>Lo que necesites al alcance de tu mouse.</p>
       <a href="#plans" class="header-button">Conoce Nuestros Planes <span></span></a>
     </div>
@@ -41,7 +41,7 @@
         <h2>Creamos un producto sin comparación.</h2>
         <p>Confiable y diseñado para su uso diario.</p>
       </div>
-      <section class="product-cards--container">
+      <div class="product-cards--container">
         <article class="product-detail--card">
           <span class="clock"></span>
           <h4 class="product--card-title">Tiempo real</h4>
@@ -74,7 +74,7 @@
             auditando su contenido mientras se actualizan.
           </p>
         </article>
-      </section>
+      </div>
     </section>
 
     <section class="bitcoin-img-container">
@@ -82,77 +82,77 @@
     </section>
 
     <section id="plans" class="main-plans-container">
-      <div class="plans--title">
-        <h2>Escoge el plan que mejor se ajuste a ti.</h2>
-        <p>Cualquier plan te da acceso completo a nuestra plataforma. Pero antes no olvides checar nuestros metodos de pagos.</p>
-      </div>
-      <section class="main-tables-container">
-        <div class="main__left-button invisible" onclick="handleChangeTable()"><span></span></div>
-        <div class="main-table" id="methodCard">
-          <h3 class="method-table--title">Métodos</h3>
-          <div class="method-table--container">
-            <table>
-              <tr>
-                <td class="table__bottom-left">Nexus points</td>
-                <td class="table__right">$ 0.07<span class="up"></span></td>
-              </tr>
-              <tr>
-                <td>Oxxo</td>
-                <td class="table__bottom-right table__right">$ 4.96<span class="down"></span></td>
-              </tr>
-              <tr>
-                <td class="table__top-left">Paypal</td>
-                <td class="table__top-right table__right">$ 1.96<span class="up"></span></td>
-              </tr>
-              <tr>
-                <td>Banamex</td>
-                <td class="table__right">$ 2.15<span class="down"></span></td>
-              </tr>
-            </table>
-          </div>
-          <div class="method-table--update">
-            <p><b>Actualizado:</b> 10 Oct 23:45</p>
-          </div>
-        </div>
+      <section class="plans--title">
+        <h2>Checa nuestros métodos de pago que mejor se ajusten a ti.</h2>
+        <p>Pero antes de checar nuestros planes, no olvides darle un vistazo a nuestros métodos de pago para que no te sorprendan las comisiones aplicadas.</p>
+        <div class="main-tables-container">
+          <figure class="main__left-button invisible" onclick="handleChangeTable()"><span></span></figure>
+          <section class="main-table" id="methodCard">
+            <h3 class="method-table--title">Métodos</h3>
+            <div class="method-table--container">
+              <table>
+                <tr>
+                  <td class="table__top-left">Nexus points</td>
+                  <td class="table__top-right table__right"><span class="nexus"></span></td>
+                </tr>
+                <tr>
+                  <td>Oxxo</td>
+                  <td class="table__right"><span class="oxxo"></span></td>
+                </tr>
+                <tr>
+                  <td>Paypal</td>
+                  <td class="table__right"><span class="paypal"></span></td>
+                </tr>
+                <tr>
+                  <td class="table__bottom-left">Banco</td>
+                  <td class="table__bottom-right table__right"><span class="bank"></span></td>
+                </tr>
+              </table>
+            </div>
+            <div class="method-table--update">
+              <p><b>Actualizado:</b> 14 Oct 23:45</p>
+            </div>
+          </section>
 
-        <div class="main-table hidden" id="commissionsCard">
-          <h3 class="commissions-table--title">Comisiones</h3>
-          <div class="commissions-table--container">
-            <table>
-              <tr>
-                <td class="table__bottom-left">Nexus points</td>
-                <td class="table__bottom-right table__right">$ 0.00<span class="down"></span></td>
-              </tr>
-              <tr>
-                <td>Oxxo</td>
-                <td class="table__right">$ 15.00<span class="up"></span></td>
-              </tr>
-              <tr>
-                <td class="table__top-left">Paypal</td>
-                <td class="table__top-right table__right">$ 12.96<span class="down"></span></td>
-              </tr>
-              <tr>
-                <td>Banamex</td>
-                <td class="table__right">$ 20.15<span class="down"></span></td>
-              </tr>
-            </table>
-          </div>
-          <div class="commissions-table--update">
-            <p><b>Actualizado:</b> 10 Oct 23:48</p>
-          </div>
+          <section class="main-table hidden" id="commissionsCard">
+            <h3 class="commissions-table--title">Comisiones</h3>
+            <div class="commissions-table--container">
+              <table>
+                <tr>
+                  <td class="table__top-left">Nexus points</td>
+                  <td class="table__top-right table__right">$ 0.00<span class="up"></span></td>
+                </tr>
+                <tr>
+                  <td>Oxxo</td>
+                  <td class="table__right">$ 15.00<span class="down"></span></td>
+                </tr>
+                <tr>
+                  <td>Paypal</td>
+                  <td class="table__right">$ 12.96<span class="up"></span></td>
+                </tr>
+                <tr>
+                  <td class="table__bottom-left">Banco</td>
+                  <td class="table__bottom-right table__right">$ 20.15<span class="down"></span></td>
+                </tr>
+              </table>
+            </div>
+            <div class="commissions-table--update">
+              <p><b>Actualizado:</b> 14 Oct 23:48</p>
+            </div>
+          </section>
+          <figure class="main__right-button" onclick="handleChangeTable()"><span></span></figure>
         </div>
-        <div class="main__right-button" onclick="handleChangeTable()"><span></span></div>
       </section>
-      <section class="plans-container--slider">
+      <h2>Escoge el plan que mejor se ajuste a ti.</h2>
+      <p>Cualquier plan te da acceso completo a nuestra plataforma. Pero antes no olvides checar nuestros metodos de pagos.</p>
+      <div class="plans-container--slider">
         <article class="plans--card">
           <p class="membership basic-member">Básico</p>
           <div class="plan-info-container">
             <h3 class="plan-card--title">Pago Mensual</h3>
             <p class="plan-card--price"><span>$</span>19</p>
             <p class="plan-card--saving">*Plan básico, la mejor manera de comenzar.</p>
-            <a href="./error/">
-              <button class="plan-card--ca basic-member--ca">Escoger este <span></span></button>
-            </a>
+            <a href="./error/" class="plan-card--ca basic-member--ca">Escoger este <span></span></a>
           </div>
         </article>
         <article class="plans--card special">
@@ -161,9 +161,7 @@
             <h3 class="plan-card--title">Prueba Gratis</h3>
             <p class="plan-card--price"><span>$</span>0.0</p>
             <p class="plan-card--saving">*Exclusiva prueba de apertura!.</p>
-            <a href="./signup/">
-              <button class="plan-card--ca  special-member--ca">Escoger este <span></span></button>
-            </a>
+            <a href="./signup/" class="plan-card--ca  special-member--ca">Escoger este <span></span></a>
           </div>
         </article>
         <article class="plans--card">
@@ -172,12 +170,10 @@
             <h3 class="plan-card--title">Pago Anual</h3>
             <p class="plan-card--price"><span>$</span>99</p>
             <p class="plan-card--saving">*Ahorras $129 comparado al plan mensual.</p>
-            <a href="./error/">
-              <button class="plan-card--ca">Escoger este <span></span></button>
-            </a>
+            <a href="./error/" class="plan-card--ca">Escoger este <span></span></a>
           </div>
         </article>
-      </section>
+      </div>
     </section>
   </main>
   <footer>
@@ -210,9 +206,9 @@
         </li>
       </ul>
     </nav>
-    <section class="logo-container">
+    <div class="logo-container">
       <a href="./"><img src="./assets/icons/logo.png" alt="Nexus Store Logo"><br>Nexus ®</a>
-    </section>
+    </div>
   </footer>
 </body>
 </html>

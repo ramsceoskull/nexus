@@ -21,7 +21,7 @@
     }
 
     $ejecutar = mysqli_query($conexion, $sql);
-        
+
     if($ejecutar){
         echo '
             <script>
@@ -30,8 +30,5 @@
             </script>
         ';
     }
-
-    
-
 
 ?>
