@@ -34,6 +34,11 @@
   --font3: 'Oswald', sans-serif;
 }
 
+body {
+  overflow-x: hidden;
+}
+/* Solución temporal :/ */
+
 .header__title-container h3 {
   font-size: var(--title-h3);
   line-height: var(--lineS-h);
@@ -112,10 +117,6 @@
   min-width: 425px;
 }
 
-.methods--title {
-  min-width: 378px;
-}
-
 .main-tables-container {
   max-width: 425px;
 }
@@ -136,16 +137,15 @@
 }
 
 .method-table--title, .commissions-table--title {
-  font-size: var(--title-h4);
+  font-size: var(--title-h6);
 }
 
 .method-table--container, .commissions-table--container {
-  min-width: 300px;
-  max-width: 365px;
+  max-width: 300px;
 }
+
 .method-table--container td, .commissions-table--container td {
-  width: 50%;
-  font-size: var(--title-h6);
+  font-size: 18rem;
 }
 
 .commissions-table--container .up, .commissions-table--container .down {
