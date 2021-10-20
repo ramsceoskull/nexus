@@ -253,7 +253,7 @@ main {
   width: 85%;
   min-width: 288px;
   max-width: 400px;
-  min-height: 150px;
+  height: auto;
   margin: 30px auto;
   padding: 20px;
   border-radius: 5px;
@@ -295,7 +295,7 @@ main {
   color: #808080;
 }
 
-.bitcoin-img-container {
+.games-img-container {
   position: relative;
   min-width: 320px;
   width: 100%;
@@ -307,7 +307,7 @@ main {
   text-align: center;
 }
 
-.bitcoin-img-container h2 {
+.games-img-container h2 {
   position: absolute;
   width: 100%;
   top: 10%;

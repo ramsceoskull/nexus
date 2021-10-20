@@ -80,7 +80,7 @@
 }
 
 .product-detail--card {
-  width: 80%;
+  width: 90%;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, .8);
 }
@@ -92,18 +92,17 @@
 
 .product--card-title {
   font-size: var(--title-h4);
-  color: var(--soft-white);
 }
 .product--card-body {
   font-size: var(--paragraphs);
   line-height: var(--lineS-p);
 }
 
-.bitcoin-img-container {
+.games-img-container {
   height: 80vh;
 }
 
-.bitcoin-img-container h2 {
+.games-img-container h2 {
   padding: 25px 0;
   font-size: var(--title-h2);
   background-color: rgba(0, 0, 0, .6);
@@ -161,11 +160,7 @@
 }
 
 .method-table--update, .commissions-table--update {
-  font-size: 14rem;
-}
-
-.method-table--update p, .commissions-table--update p {
-  line-height: 17rem;
+  width: 60%;
 }
 
 .main-plans-container > h2 {
@@ -176,16 +171,14 @@
 }
 
 .plans--card {
-  width: 80%;
   min-width: 285px;
-  margin: 50px 15px 20px;
-  padding-top: 50px;
+  padding: 40px 30px;
 }
 .membership {
   width: 60%;
   height: 35px;
   left: calc(50% - 85px);
-  font-size: var(--title-h6);
+  font-size: 18rem;
 }
 
 .plan-card--title {
@@ -201,7 +194,7 @@
 }
 
 .plan-card--saving {
-  font-size: var(--title-h6);
+  font-size: 18rem;
 }
 .plan-card--ca {
   margin: 15px auto 0;
