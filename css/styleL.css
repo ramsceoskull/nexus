@@ -24,7 +24,7 @@
   --title-h3: 26rem;
   --title-h4: 24rem;
   --title-h5: 22rem;
-  --title-h6: 20rem;
+  /* --title-h6: 20rem; */
   --paragraphs: 16rem;
   --lineS-p: 20rem;
   --lineS-h: 34rem;
@@ -33,11 +33,6 @@
   --font2: 'Lato', sans-serif;
   --font3: 'Oswald', sans-serif;
 }
-
-body {
-  overflow-x: hidden;
-}
-/* Solución temporal :/ */
 
 .header__title-container h3 {
   font-size: var(--title-h3);
@@ -75,14 +70,14 @@ body {
   left: calc(50% - 50px);
 }
 
-.product-detail--title h2 {
+/* .product-detail--title h2 {
   font-size: var(--title-h2);
   line-height: var(--lineS-h);
 }
 
 .product-detail--title p {
   font-size: var(--paragraphs);
-}
+} */
 
 .product-detail--card {
   width: 90%;
@@ -95,79 +90,18 @@ body {
   margin-bottom: 10px;
 }
 
-.product--card-title {
+/* .product--card-title {
   font-size: var(--title-h4);
 }
 .product--card-body {
   font-size: var(--paragraphs);
   line-height: var(--lineS-p);
-}
-
-.games-img-container {
-  height: 80vh;
-}
+} */
 
 .games-img-container h2 {
   padding: 25px 0;
   font-size: var(--title-h2);
   background-color: rgba(0, 0, 0, .6);
-}
-
-.main-plans-container {
-  min-width: 425px;
-}
-
-.main-tables-container {
-  max-width: 425px;
-}
-
-.methods--title > h2 {
-  font-size: var(--title-h2);
-  line-height: var(--lineS-h);
-}
-
-.methods--title > p {
-  font-size: var(--paragraphs);
-  line-height: var(--lineS-p);
-}
-
-.main-table {
-  min-width: 300px;
-  max-width: 605px;
-}
-
-.method-table--title, .commissions-table--title {
-  font-size: var(--title-h6);
-}
-
-.method-table--container, .commissions-table--container {
-  max-width: 300px;
-}
-
-.method-table--container td, .commissions-table--container td {
-  font-size: 18rem;
-}
-
-.commissions-table--container .up, .commissions-table--container .down {
-  width: 20px;
-  height: 20px;
-}
-
-.main__left-button > span, .main__right-button > span {
-  height: 35px;
-  width: 35px;
-  margin-bottom: 5px;
-}
-
-.method-table--update, .commissions-table--update {
-  width: 60%;
-}
-
-.main-plans-container > h2 {
-  font-size: var(--title-h2);
-}
-.main-plans-container > p {
-  font-size: var(--paragraphs);
 }
 
 .plans--card {
@@ -198,5 +132,4 @@ body {
 }
 .plan-card--ca {
   margin: 15px auto 0;
-  font-size: var(--paragraphs);
 }
