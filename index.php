@@ -1,4 +1,4 @@
 <?php
     include 'index.html';
-    include 'base de datos/db.php';
+    include 'private/php/db.php';
 ?>
