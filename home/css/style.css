@@ -213,8 +213,10 @@ main article {
   width: 80%;
   height: 20vh;
   margin: 20px auto;
-  border-radius: 20px;
+  border-radius: 10px;
   background-color: var(--just-grey);
+  font-size: var(--title-h3);
+  padding: 10px;
 }
 
 
