@@ -228,7 +228,7 @@ main {
 }
 
 .product__img-container {
-  width: 35%;
+  width: 40%;
   height: inherit;
 }
 .product__img-container img {
@@ -241,7 +241,7 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  width: 65%;
+  width: 60%;
   height: inherit;
   padding: 10px;
 }
