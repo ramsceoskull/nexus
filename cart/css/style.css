@@ -161,6 +161,7 @@ header {
   transition: all 500ms ease;
   opacity: 0;
   visibility: hidden;
+  z-index: 1;
 }
 #btn-menu:checked ~ .container__menu{
   opacity: 1;
