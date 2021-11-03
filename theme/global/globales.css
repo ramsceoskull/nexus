@@ -33,3 +33,22 @@
   --font2: 'Lato', sans-serif;
   --font3: 'Oswald', sans-serif;
 }
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 6.25%;
+  font-family: var(--font1);
+  scroll-behavior: smooth;
+  width: 100vw;
+  height: auto;
+}
+
+body {
+  width: 100vw;
+  height: auto;
+}

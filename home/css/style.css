@@ -119,7 +119,7 @@ header {
   transition: all 0.3s ease;
   opacity: .7;
 }
-.menu--home, .menu--cart, .menu--gallery, .menu--support {
+.menu--home, .menu--cart, .menu--gallery, .menu--support, .menu--profile {
   width: 23px;
   height: 23px;
   background-position: center;
@@ -139,6 +139,9 @@ header {
 }
 .header__menu .menu--support {
   background-image: url('../../assets/svg/support-white.svg');
+}
+.header__menu .menu--profile {
+  background-image: url('../../assets/icons/user.png');
 }
 .header__menu a:hover {
   opacity: 1;
