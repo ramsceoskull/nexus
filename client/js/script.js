@@ -1,10 +1,10 @@
-const handleChangeTable = () => {
-  for (let item of document.querySelectorAll(".main-table")) {
-    item.classList.toggle("hidden");
-  }
-  document.querySelector(".main__right-button").classList.toggle("invisible");
-  document.querySelector(".main__left-button").classList.toggle("invisible");
-};
+// const handleChangeTable = () => {
+//   for (let item of document.querySelectorAll(".main-table")) {
+//     item.classList.toggle("hidden");
+//   }
+//   document.querySelector(".main__right-button").classList.toggle("invisible");
+//   document.querySelector(".main__left-button").classList.toggle("invisible");
+// };
 
 const mobileTableContainer = () => {
   document.querySelector(".main__left-button").classList.remove("hidden");

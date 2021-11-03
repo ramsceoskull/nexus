@@ -330,7 +330,7 @@ main {
   width: 90%;
   min-width: 288px;
   height: auto;
-  margin: 0 auto;
+  margin: 0 auto 30px;
 }
 
 .plans--title > h2 {
@@ -340,7 +340,7 @@ main {
 }
 
 .plans--title > p {
-  margin: 30px 0 40px;
+  margin: 30px 0 0;
   font-size: var(--paragraphs);
   line-height: var(--lineS-p);
   color: var(--just-grey);
@@ -356,7 +356,7 @@ main {
 .nexus, .oxxo, .paypal, .bank {
   display: inline-block;
   width: inherit;
-  height: 30px;
+  height: 50px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
