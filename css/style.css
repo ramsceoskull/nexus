@@ -326,156 +326,57 @@ main {
   text-align: center;
 }
 
-.methods--title {
+.plans--title {
   width: 90%;
   min-width: 288px;
   height: auto;
   margin: 0 auto;
 }
 
-.main-tables-container {
-  display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
-  justify-items: center;
-  align-items: center;
-  max-width: 320px;
-  margin: 0 auto;
-  padding-bottom: 40px;
-}
-
-.methods--title > h2 {
+.plans--title > h2 {
   font-size: var(--title-h2);
   line-height: var(--lineS-h);
   color: var(--warm-black);
 }
 
-.methods--title > p {
+.plans--title > p {
   margin: 30px 0 40px;
   font-size: var(--paragraphs);
   line-height: var(--lineS-p);
   color: var(--just-grey);
 }
 
-.main-table {
-  width: 70%;
-  min-width: 235px;
-  max-width: 500px;
-  height: auto;
-  font-family: var(--font2);
-  text-align: left;
-}
-
-.method-table--title, .commissions-table--title {
-  margin-bottom: 15px;
-  font-size: var(--title-h4);
-  padding-left: 15px;
-  color: var(--softDark-primary);
-}
-.commissions-table--title {
-  color: var(--softDark-secondary);
-}
-
-.method-table--container, .commissions-table--container {
-  width: 100%;
-  min-width: 230px;
-  max-width: 250px;
-  height: 300px;
+.methods {
+  display: flex;
   margin: 0 auto;
-}
-.main-tables-container table {
-  width: 100%;
-  height: 100%;
-}
-.method-table--container td, .commissions-table--container td {
-  width: 50%;
-  padding-left: 15px;
-  font-size: var(--title-h6);
-  color: var(--just-grey);
-  background-color: var(--just-white);
-}
-.table__top-left {
-  border-radius: 15px 0 0 0;
-}
-.table__top-right {
-  border-radius: 0 15px 0 0;
-}
-.table__bottom-left {
-  border-radius: 0 0 0 15px;
-}
-.table__bottom-right {
-  border-radius: 0 0 15px 0;
-}
-
-.commissions-table--container .table__right {
-  padding-left: 25px;
-  color: #757575;
-}
-
-.method-table--container .table__right {
-  text-align: center;
-  padding: 0;
+  justify-content: space-around;
+  height: auto;
+  width: 80%;
 }
 .nexus, .oxxo, .paypal, .bank {
   display: inline-block;
   width: inherit;
   height: 30px;
-  background-size: cover;
+  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
-.method-table--container .nexus {
+.nexus {
   background-image: url('../assets/icons/logo.png');
-  background-size: contain;
 }
-.method-table--container .oxxo {
+.oxxo {
   background-image: url('../assets/icons/oxxo-logo.png');
 }
-.method-table--container .paypal {
+.paypal {
   background-image: url('../assets/icons/payPal-logo.png');
 }
-.method-table--container .bank {
-  background-size: contain;
+.bank {
   background-image: url('../assets/icons/banamex-logo.png');
   /* background-image: url('../assets/icons/banamex.png'); */
 }
-.commissions-table--container .up, .commissions-table--container .down {
-  display: inline-block;
-  width: 15px;
-  height: 15px;
-  margin-left: 10px;
-  background-image: url('../assets/svg/trending-up.svg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.commissions-table--container .down {
-  background-image: url('../assets/svg/trending-down.svg');
-}
 
-.main__left-button > span, .main__right-button > span {
-  display: block;
-  height: 25px;
-  width: 25px;
-  margin-bottom: 10px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.main__left-button > span {
-  background-image: url('../assets/svg/left-arrow.svg');
-}
-.main__right-button > span {
-  background-image: url('../assets/svg/right-arrow.svg');
-}
-.hidden {
-  display: none;
-}
-.invisible {
-  visibility: hidden;
-}
-
-.method-table--update, .commissions-table--update {
-  width: 80%;
+.methods--update {
+  width: 45%;
   height: auto;
   margin: 15px auto 0;
   padding: 8px;
@@ -484,26 +385,11 @@ main {
   font-size: 12rem;
   background-color: var(--softRed-variation);
 }
-.commissions-table--update {
-  background-color: var(--softBlue-variation);
-}
 
-.method-table--update p, .commissions-table--update p {
+.methods--update p {
   font-weight: 300;
   line-height: 15rem;
   color: var(--warm-black);
-}
-
-.main-plans-container > h2 {
-  width: 90%;
-  margin: 20px auto;
-  font-size: var(--title-h2);
-}
-.main-plans-container > p {
-  width: 90%;
-  margin: 0 auto 20px;
-  color: var(--just-grey);
-  font-size: var(--paragraphs);
 }
 
 .plans-container--slider {
