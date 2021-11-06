@@ -1,0 +1,109 @@
+body {
+  background: linear-gradient(207.8deg, #201E1C 20%, #D00000 100%);
+}
+
+header, .message__wrap {
+  display: none;
+}
+
+main {
+  display: block;
+  height: 90vh;
+}
+
+.atom__container {
+  display: flex;
+  height: inherit;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.info {
+  height: auto;
+  text-align: center;
+  color: white;
+}
+.info > p {
+  font-size: 80rem;
+}
+.info > h3 {
+  font-size: 24rem;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+}
+.footer__support-container > a {
+  font-size: 18rem;
+}
+.footer__support-container img {
+  width: 18px;
+  height: 18px;
+}
+
+.plane {
+  width: 120px;
+  height: 120px;
+  transform-style: preserve-3d;
+}
+.plane.main {
+  margin: 70px 0;
+  transform: rotateX(60deg) rotateZ(-30deg);
+  -webkit-animation: rotate 20s infinite linear;
+    animation: rotate 20s infinite linear;
+}
+.plane.main .circle {
+  width: inherit;
+  height: inherit;
+  position: absolute;
+  border-radius: 100%;
+  transform-style: preserve-3d;
+  box-shadow: 0 0 60px #d8e2dc, inset 0 0 60px #d8e2dc;
+}
+.plane.main .circle::before, .plane.main .circle::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 10%;
+  height: 10%;
+  border-radius: 100%;
+  background: #d8e2dc;
+  box-shadow: 0 0 60px 2px #d8e2dc;
+}
+.plane.main .circle::before {
+  transform: translateZ(-90px);
+}
+.plane.main .circle::after {
+  transform: translateZ(90px);
+}
+.plane.main .circle:nth-child(1) {
+  transform: rotateZ(72deg) rotateX(63.435deg);
+}
+.plane.main .circle:nth-child(2) {
+  transform: rotateZ(144deg) rotateX(63.435deg);
+}
+.plane.main .circle:nth-child(3) {
+  transform: rotateZ(216deg) rotateX(63.435deg);
+}
+.plane.main .circle:nth-child(4) {
+  transform: rotateZ(288deg) rotateX(63.435deg);
+}
+.plane.main .circle:nth-child(5) {
+  transform: rotateZ(360deg) rotateX(63.435deg);
+}
+
+@-webkit-keyframes rotate {
+  0% {transform: rotateX(0) rotateY(0) rotateZ(0);}
+  100% {transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);}
+}
+
+@keyframes rotate {
+  0% {transform: rotateX(0) rotateY(0) rotateZ(0);}
+  100% {transform: rotateX(360deg) rotateY(360deg) rotateZ(360deg);}
+}

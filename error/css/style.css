@@ -5,13 +5,19 @@
 }
 
 html {
+  width: 100vw;
+  height: 100vh;
   font-family: 'Nunito', sans-serif;
-  scroll-behavior: smooth;
   font-size: 6.25%;
 }
 
+body {
+  width: inherit;
+  height: inherit;
+  background: linear-gradient(207.8deg, #201E1C 16.69%, #D00000 100%);
+}
+
 header {
-  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -19,19 +25,12 @@ header {
   min-width: 320px;
   height: 15vh;
 }
-
-header img {
-  height: 15vh;
-  align-self: center;
+header > img {
+  height: inherit;
 }
-header h2 {
+header > h2 {
   color: #F26A4F;
   font-size: 28rem;
-}
-
-body {
-  width: 100%;
-  background: linear-gradient(207.8deg, #201E1C 16.69%, #D00000 100%);
 }
 
 main {
@@ -42,28 +41,25 @@ main {
   padding-bottom: 40px;
 }
 
+.atom__container, .aquarium {
+  display: none;
+}
+
 .message__wrap {
   display: flex;
-  flex-direction: column;
   width: 100%;
-}
-.message__wrap--box {
-  width: auto;
   height: auto;
-  float: left;
+  flex-direction: column;
+  text-align: center;
 }
 .message__wrap--title {
   color: #C7C7C7;
   font-size: 18rem;
-  text-align: center;
-  margin-top: 10px;
 }
 
 .text {
-  text-align: center;
   color: #FAF8F7;
   font-size: 70rem;
-  font-family: sans-serif;
 }
 .animated {
   animation-duration: 2.5s;
@@ -80,44 +76,42 @@ main {
 }
 
 footer {
-  width: 100%;
+  display: flex;
+  width: inherit;
   height: 10vh;
   padding: 0 10px;
-  display: flex;
   justify-content: space-between;
-}
-
-footer section {
-  display: flex;
   align-items: center;
 }
 
-.left a {
-  text-decoration: none;
-  padding-left: 10px;
-  font-size: 14rem;
-  font-weight: 500;
-  color: #FFFFFF;
-}
-.left a:visited {
-  color: #F26A4F;
-}
-.left a:hover {
-  text-decoration: underline;
+footer > nav {
+  display: flex;
 }
 
-.left img {
+.footer__support-container > a {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14rem;
+  color: #FFFFFF;
+}
+.footer__support-container > a:visited {
+  color: #F26A4F;
+}
+.footer__support-container img {
   width: 15px;
   height: 15px;
   margin-right: 5px;
 }
-.right {
+.footer__logo-container {
   text-align: center;
 }
-.right img {
+.footer__logo-container img {
   height: 6vh;
 }
-.right a {
+.footer__logo-container > a {
   text-decoration: none;
   font-size: 10rem;
   color: #FFFFFF;
