@@ -62,18 +62,18 @@ html::-webkit-scrollbar-track:active {
 .main__product-detail {
   min-width: 768px;
   height: auto;
-  padding: 20px 0 80px;
+  padding: 70px 0 80px;
 }
 
-.product-cards--container {
-  display: flex;
-  flex-wrap: wrap;
-  max-width: 800px;
-  margin: 0 auto;
+.product-detail--nexus-logo {
+  width: 100px;
+  height: 100px;
+  top: -45px;
+  left: calc(50% - 50px);
 }
 
 .product-detail--title {
-  margin: 50px auto 30px;
+  margin: 0 auto 30px;
 }
 
 .product-detail--title h2 {
@@ -87,15 +87,22 @@ html::-webkit-scrollbar-track:active {
   line-height: 24rem;
 }
 
+.product-cards--container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 .product-detail--card {
   min-width: 288px;
-  max-width: 350px;
+  max-width: 380px;
   min-height: 150px;
   margin: 15px auto;
 }
 
 .product--card-body {
-  font-weight: 500;
+  font-size: 18rem;
 }
 
 .games-img-container {
@@ -124,7 +131,7 @@ html::-webkit-scrollbar-track:active {
 
 .plans--title p {
   width: 90%;
-  margin: 20px auto 40px;
+  margin: 20px auto 0;
   font-size: 20rem;
   line-height: 24rem;
 }

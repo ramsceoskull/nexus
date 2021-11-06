@@ -27,11 +27,15 @@ header {
   margin-left: 5px;
 }
 
+.main__product-detail {
+  padding: 60px 0;
+}
+
 .product-detail--nexus-logo {
-  width: 100px;
-  height: 100px;
-  top: -45px;
-  left: calc(50% - 50px);
+  width: 80px;
+  height: 80px;
+  top: -38px;
+  left: calc(50% - 40px);
 }
 
 .product-detail--card {
