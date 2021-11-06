@@ -259,6 +259,10 @@ main {
   height: auto;
   width: 80%;
 }
+.plans__methods-container a {
+  width: inherit;
+  height: 30px;
+}
 .paypal, .nexus, .bank, .oxxo {
   display: inline-block;
   width: inherit;
