@@ -261,7 +261,7 @@ main {
 }
 .plans__methods-container a {
   width: inherit;
-  height: 30px;
+  height: auto;
 }
 .paypal, .nexus, .bank, .oxxo {
   display: inline-block;
