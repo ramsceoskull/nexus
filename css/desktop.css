@@ -1,3 +1,7 @@
+.plans__methods-container {
+  width: 60%;
+}
+
 .paypal, .nexus, .bank, .oxxo {
   height: 60px;
 }

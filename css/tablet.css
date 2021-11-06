@@ -3,11 +3,26 @@ html {
   overflow-x: hidden;
 }
 html::-webkit-scrollbar {
-  background-color: var(--softRed-variation);
-  width: 6px;
+  width: 8px;
 }
 html::-webkit-scrollbar-thumb {
   background-color: var(--softDark-primary);
+  border-radius: 4px;
+}
+html::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-primary);
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
+}
+html::-webkit-scrollbar-thumb:active {
+  background-color: var(--dark-primary);
+}
+html::-webkit-scrollbar-track {
+  background-color: var(--softRed-variation);
+  border-radius: 4px;
+}
+html::-webkit-scrollbar-track:hover,
+html::-webkit-scrollbar-track:active {
+  background-color: var(--red-variation);
 }
 
 .header__title-container h1 {
@@ -47,7 +62,7 @@ html::-webkit-scrollbar-thumb {
 .main__product-detail {
   min-width: 768px;
   height: auto;
-  padding: 20px 0 60px;
+  padding: 20px 0 80px;
 }
 
 .product-cards--container {
@@ -77,7 +92,6 @@ html::-webkit-scrollbar-thumb {
   max-width: 350px;
   min-height: 150px;
   margin: 15px auto;
-  padding: 15px;
 }
 
 .product--card-body {
