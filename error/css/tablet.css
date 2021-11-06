@@ -53,7 +53,7 @@ footer {
   transform-style: preserve-3d;
 }
 .plane.main {
-  margin: 0 0 70px;
+  margin: 0 0 50px;
   transform: rotateX(60deg) rotateZ(-30deg);
   -webkit-animation: rotate 20s infinite linear;
     animation: rotate 20s infinite linear;

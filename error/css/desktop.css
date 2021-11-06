@@ -32,6 +32,9 @@ main {
   font-size: 24rem;
 }
 
+footer {
+  position: static;
+}
 .footer__support-container > a {
   font-weight: 500;
   color: #FFFFFF;
