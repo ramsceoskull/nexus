@@ -427,6 +427,9 @@ footer {
   align-items: center;
   background-color: var(--softDark-primary);
 }
+footer a:visited {
+  color: #F26A4F;
+}
 .footer__media-container {
   display: flex;
   width: 70%;
