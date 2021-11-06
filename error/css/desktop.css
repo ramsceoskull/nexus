@@ -28,7 +28,7 @@ main {
 .info > h3 {
   width: max-content;
   left: calc(50% - 45px);
-  bottom: -230px;
+  bottom: -210px;
   font-size: 24rem;
 }
 
