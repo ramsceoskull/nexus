@@ -28,9 +28,19 @@ main {
   width: max-content;
 }
 
+.footer__support-container > a {
+  font-weight: 500;
+  color: #FFFFFF;
+}
+.footer__support-container > a:visited {
+  color: #F26A4F;
+}
 .footer__support-container > a:hover {
   text-decoration: underline;
   color: #6A040F;
+}
+.footer__logo-container a {
+  font-size: 14rem;
 }
 .footer__logo-container a:hover {
   text-decoration: underline;

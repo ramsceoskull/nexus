@@ -97,7 +97,7 @@ footer > nav {
   font-size: 14rem;
   color: #FFFFFF;
 }
-.footer__support-container > a:visited {
+footer a:visited {
   color: #F26A4F;
 }
 .footer__support-container img {

@@ -1,5 +1,5 @@
 body {
-  background: linear-gradient(207.8deg, #201E1C 20%, #D00000 100%);
+  background: #222;
 }
 
 header, .message__wrap {
@@ -35,11 +35,19 @@ footer {
   bottom: 0;
 }
 .footer__support-container > a {
+  font-weight: 600;
   font-size: 18rem;
+  color: #C7C7C7;
+}
+.footer__support-container > a:visited {
+  color: #F26A4F;
 }
 .footer__support-container img {
   width: 18px;
   height: 18px;
+}
+.footer__logo-container > a {
+  color: #C7C7C7;
 }
 
 .plane {
@@ -59,7 +67,7 @@ footer {
   position: absolute;
   border-radius: 100%;
   transform-style: preserve-3d;
-  box-shadow: 0 0 60px #d8e2dc, inset 0 0 60px #d8e2dc;
+  box-shadow: 0 0 60px crimson, inset 0 0 60px crimson;
 }
 .plane.main .circle::before, .plane.main .circle::after {
   content: "";
@@ -73,8 +81,8 @@ footer {
   width: 10%;
   height: 10%;
   border-radius: 100%;
-  background: #d8e2dc;
-  box-shadow: 0 0 60px 2px #d8e2dc;
+  background: crimson;
+  box-shadow: 0 0 60px 2px crimson;
 }
 .plane.main .circle::before {
   transform: translateZ(-90px);
