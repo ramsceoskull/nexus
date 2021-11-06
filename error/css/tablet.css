@@ -24,10 +24,7 @@ main {
   color: white;
 }
 .info > p {
-  font-size: 80rem;
-}
-.info > h3 {
-  font-size: 24rem;
+  font-size: 60rem;
 }
 
 footer {
@@ -51,12 +48,12 @@ footer {
 }
 
 .plane {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   transform-style: preserve-3d;
 }
 .plane.main {
-  margin: 70px 0;
+  margin: 0 0 70px;
   transform: rotateX(60deg) rotateZ(-30deg);
   -webkit-animation: rotate 20s infinite linear;
     animation: rotate 20s infinite linear;

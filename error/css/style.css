@@ -76,9 +76,11 @@ main {
 }
 
 footer {
+  position: absolute;
   display: flex;
   width: inherit;
   height: 10vh;
+  bottom: 0;
   padding: 0 10px;
   justify-content: space-between;
   align-items: center;

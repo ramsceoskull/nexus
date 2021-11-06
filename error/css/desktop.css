@@ -22,10 +22,14 @@ main {
   left: calc(50% - 75px);
   bottom: 150px;
 }
+.info > p {
+  font-size: 80rem;
+}
 .info > h3 {
+  width: max-content;
   left: calc(50% - 45px);
   bottom: -230px;
-  width: max-content;
+  font-size: 24rem;
 }
 
 .footer__support-container > a {
@@ -60,7 +64,6 @@ main {
     content: '';
   }
   .aquarium__table {
-    position: relative;
     left: 230px; top: 381px;
     width: 341px; height: 6px;
     border-radius: 3px;
