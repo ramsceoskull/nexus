@@ -1,0 +1,40 @@
+.paypal, .nexus, .bank, .oxxo {
+  height: 60px;
+}
+
+.plans__card {
+  max-width: 280px;
+  margin: auto 15px;
+  padding: 40px 30px 30px;
+}
+
+footer {
+  justify-content: space-between;
+}
+
+.footer__media-container > a {
+  border-bottom: 2px solid transparent;
+  font-size: 12rem;
+}
+.footer__media-container img {
+  height: 13px;
+  margin-right: 3px;
+}
+.footer__media-container > a:hover {
+  padding: 0 10px 5px;
+  border-bottom: 2px solid var(--softRed-variation);
+}
+
+.footer__logo {
+  width: 30%;
+}
+.footer__logo > a {
+  text-decoration: none;
+  font-size: 14rem;
+}
+.footer__logo > a:hover {
+  text-decoration: underline;
+}
+.footer__logo img {
+  width: 8vw;
+}

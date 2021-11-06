@@ -1,4 +1,3 @@
 <?php
-    include 'index.html';
-    include 'private/php/db.php';
-?>
+  include './';
+  // include 'private/php/db.php';

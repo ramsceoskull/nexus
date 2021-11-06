@@ -1,0 +1,166 @@
+body {
+  width: 100vw;
+  height: inherit;
+  background: url(https://www.xtrafondos.com/wallpapers/montanas-con-nieve-en-el-bosque-3934.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.capa{
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+
+/* Header */
+header {
+  position: fixed;
+  display: flex;
+  width: inherit;
+  height: 10vh;
+  top: 0;
+  left: 0;
+  padding: 0 20px;
+  border-bottom: 3px solid var(--dark-primary);
+  background: linear-gradient(207.8deg, #201E1C 16.69%, #D00000 100%);
+}
+.btn-menu {
+  display: flex;
+  align-items: center;
+  width: auto;
+}
+.btn-menu label {
+  margin-right: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  color: var(--just-white);
+}
+.btn-menu label:hover {
+  color: var(--just-grey);
+}
+.header--logo, .header--logo a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.header--logo img {
+  height: 9vh;
+}
+.header--logo a {
+  font-weight: 700;
+  font-size: var(--title-h3);
+  color: var(--softRed-variation);
+}
+.header--logo a:hover {
+  color: var(--dark-primary);
+  opacity: .7;
+}
+.header__menu {
+  display: flex;
+  width: auto;
+  align-items: center;
+  margin-left: auto;
+}
+.header__menu a {
+  margin: 0 10px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  opacity: .7;
+}
+.menu--home, .menu--cart, .menu--gallery, .menu--support, .menu--profile {
+  width: 23px;
+  height: 23px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.header__menu .menu--home {
+  display: none;
+  background-image: url('../../assets/icons/1x/home-white.png');
+}
+.header__menu .menu--gallery {
+  display: none;
+  background-image: url('../../assets/svg/collections-white.svg');
+}
+.header__menu .menu--cart {
+  background-image: url('../../assets/svg/cart-white.svg');
+}
+.header__menu .menu--support {
+  background-image: url('../../assets/svg/support-white.svg');
+}
+.header__menu .menu--profile {
+  background-image: url('../../assets/icons/user.png');
+}
+.header__menu a:hover {
+  opacity: 1;
+}
+/*Fin de Estilos para el encabezado*/
+
+/*Menù lateral*/
+#btn-menu {
+  display: none;
+}
+.container__menu {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  transition: all 500ms ease;
+  opacity: 0;
+  visibility: hidden;
+}
+#btn-menu:checked ~ .container__menu{
+  opacity: 1;
+  visibility: visible;
+}
+.menu__cont {
+  position: relative;
+  width: 100%;
+  max-width: 60%;
+  height: 100vh;
+  transition: all 500ms ease;
+  transform: translateX(-100%);
+  background-color: #1c1c1c;
+}
+#btn-menu:checked ~ .container__menu > .menu__cont {
+  transform: translateX(0%);
+}
+.menu__cont nav {
+  transform: translateY(15%);
+}
+.menu__cont nav a {
+  display: block;
+  padding: 20px;
+  color: #C7C7C7;
+  border-left: 5px solid transparent;
+  transition: all 400ms ease;
+  text-decoration: none;
+  font-size: var(--title-h4);
+}
+.menu__cont nav a:hover{
+  border-left: 3px solid var(--softDark-primary);
+  background-color: #1f1f1f;
+}
+.menu__cont label{
+  position: absolute;
+  right: 5px;
+  top: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  color: var(--just-white);
+}
+/* Fin de Menù lateral */
+
+
+/* Main */
+main {
+  width: inherit;
+  height: auto;
+  margin-top: 15vh;
+}

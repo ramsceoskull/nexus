@@ -4,11 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Esta página es únicamente para fines escolares, pero, si deseas ser un tester eres bienvenido...">
+  <meta name="robots" content="index, follow">
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Nunito:wght@200;300;400;600;700;800;900&family=Oswald:wght@200;300;400;500;700&display=swap" rel="stylesheet">
   <link rel="icon" href="./assets/icons/logo.png">
   <link rel="stylesheet" href="./theme/global/globales.css">
   <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/styleL.css" media="(min-width: 410px)">
+  <link rel="stylesheet" href="./css/styleL.css" media="(min-width: 425px)">
+  <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)">
+  <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1024px)">
   <script src="./client/js/script.js"></script>
   <title>Nexus Store</title>
 </head>
@@ -21,19 +25,19 @@
     <div class="header__title-container">
       <h3>La próxima revolución en la compra de productos gaming.</h3>
       <p>Nexus Store...<br>Lo que necesites al alcance de tu mouse.</p>
-      <a href="#plans" class="header-button">Conoce Nuestros Planes <span></span></a>
+      <a href="#plans">Conoce Nuestros Planes <span></span></a>
     </div>
   </header>
   <main>
-    <section class="main-intro-container">
-      <figure class="backgroundImg"></figure>
-      <div class="main-intro-container--title">
+    <section class="main__intro-container">
+      <figure class="intro__img"></figure>
+      <div class="intro-container--info">
         <h2>Te traemos el mejor contenido del mercado.</h2>
         <p>Traemos productos en base a las tendencias existentes en la diferente y amplia variedad del mundo gaming.</p>
       </div>
     </section>
 
-    <section class="main-product-detail">
+    <section class="main__product-detail">
       <a href="./home/">
         <span class="product-detail--nexus-logo"></span>
       </a>
@@ -81,43 +85,43 @@
       <h2>Conócelo hoy.</h2>
     </section>
 
-    <section id="plans" class="main-plans-container">
+    <section id="plans" class="main__plans-container">
       <section class="plans--title">
         <h2>Escoge el plan que mejor se ajuste a ti.</h2>
-        <p>Cualquier plan te da acceso completo a nuestra plataforma. Pero antes no olvides checar nuestros metodos de pagos.</p>
+        <p>Cualquier plan te da acceso completo a nuestra plataforma. Pero antes no olvides checar nuestros métodos de pagos.</p>
       </section>
-      <div class="methods">
-        <span class="nexus"></span>
-        <span class="oxxo"></span>
-        <span class="paypal"></span>
-        <span class="bank"></span>
+      <div class="plans__methods-container">
+        <span class="paypal" title="Método de pago Paypal"></span>
+        <span class="nexus" title="Método de pago Nexus Points"></span>
+        <span class="bank" title="Método de pago Bancos"></span>
+        <span class="oxxo" title="Método de pago Deposito"></span>
       </div>
       <div class="plans-container--slider">
-        <article class="plans--card">
+        <article class="plans__card">
           <p class="membership basic-member">Básico</p>
-          <div class="plan-info-container">
+          <div class="plan__info-container">
             <h3 class="plan-card--title">Pago Mensual</h3>
             <p class="plan-card--price"><span>$</span>19</p>
             <p class="plan-card--saving">*Plan básico, la mejor manera de comenzar.</p>
-            <a href="./error/" class="plan-card--ca basic-member--ca">Escoger este <span></span></a>
+            <a href="./error/" class="card__button bm__button">Escoger este <span></span></a>
           </div>
         </article>
-        <article class="plans--card special">
+        <article class="plans__card special">
           <p class="membership special-member">Limitado</p>
-          <div class="plan-info-container">
+          <div class="plan__info-container">
             <h3 class="plan-card--title">Prueba Gratis</h3>
             <p class="plan-card--price"><span>$</span>00</p>
             <p class="plan-card--saving">*Exclusiva prueba de apertura!.</p>
-            <a href="./signup/" class="plan-card--ca  special-member--ca">Escoger este <span></span></a>
+            <a href="./signup/" class="card__button sm__button">Escoger este <span></span></a>
           </div>
         </article>
-        <article class="plans--card">
+        <article class="plans__card">
           <p class="membership">Recomendado</p>
-          <div class="plan-info-container">
+          <div class="plan__info-container">
             <h3 class="plan-card--title">Pago Anual</h3>
             <p class="plan-card--price"><span>$</span>99</p>
             <p class="plan-card--saving">*Ahorras $129 comparado al plan mensual.</p>
-            <a href="./error/" class="plan-card--ca">Escoger este <span></span></a>
+            <a href="./error/" class="card__button">Escoger este <span></span></a>
           </div>
         </article>
       </div>
@@ -127,36 +131,24 @@
     </section>
   </main>
   <footer>
-    <nav>
-      <ul class="footer__list">
-        <li>
-          <a href="mailto:ramses.lanceno@alumnos.udg.mx">
-            <img src="./assets/svg/gmail-logo.svg" alt="Gmail de Ramsés">Ramsés Anceno
-          </a>
-        </li>
-        <li>
-          <a href="mailto:ruben.vivian@alumnos.udg.mx">
-            <img src="./assets/svg/gmail-logo.svg" alt="Gmail de Emilio">Emilio Vivian
-          </a>
-        </li>
-        <li>
-          <a href="mailto:froilan.villasenor@alumnos.udg.mx">
-            <img src="./assets/svg/gmail-logo.svg" alt="Gmail de Froilan">Froilan Villaseñor
-          </a>
-        </li>
-        <li>
-          <a href="mailto:cristobal.mtorres@alumnos.udg.mx">
-            <img src="./assets/svg/gmail-logo.svg" alt="Gmail de Cristobal">Cristobal Torres
-          </a>
-        </li>
-        <li>
-          <a href="mailto:ivan.trillo@alumnos.udg.mx">
-            <img src="./assets/svg/gmail-logo.svg" alt="Gmail de Trillo">Ivan Trillo
-          </a>
-        </li>
-      </ul>
+    <nav class="footer__media-container">
+      <a href="mailto:ramses.lanceno@alumnos.udg.mx">
+        <img src="./assets/svg/gmail-logo.svg" alt="Gmail de Ramsés">Ramsés Anceno
+      </a>
+      <a href="mailto:ruben.vivian@alumnos.udg.mx">
+        <img src="./assets/svg/gmail-logo.svg" alt="Gmail de Emilio">Emilio Vivian
+      </a>
+      <a href="mailto:froilan.villasenor@alumnos.udg.mx">
+        <img src="./assets/svg/gmail-logo.svg" alt="Gmail de Froilan">Froilan Villaseñor
+      </a>
+      <a href="mailto:cristobal.mtorres@alumnos.udg.mx">
+        <img src="./assets/svg/gmail-logo.svg" alt="Gmail de Cristóbal">Cristóbal Torres
+      </a>
+      <a href="mailto:ivan.trillo@alumnos.udg.mx">
+        <img src="./assets/svg/gmail-logo.svg" alt="Gmail de Trillo">Ivan Trillo
+      </a>
     </nav>
-    <div class="logo-container">
+    <div class="footer__logo">
       <a href="./"><img src="./assets/icons/logo.png" alt="Nexus Store Logo"><br>Nexus ®</a>
     </div>
   </footer>

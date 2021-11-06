@@ -11,33 +11,20 @@
   --lineS-h: 34rem;
 }
 
-.header__title-container h3 {
-  font-size: var(--title-h3);
-  line-height: var(--lineS-h);
+header {
+  padding-bottom: 65px;
 }
 
 .header__title-container p {
   font-size: 18rem;
-  line-height: var(--lineS-p);
 }
 
-.header__title-container .header-button {
-  width: 230px;
-  border-radius: 5px;
+.header__title-container a {
   font-size: 15rem;
 }
 
-.header-button span {
+.header__title-container > a span {
   margin-left: 5px;
-}
-
-.main-intro-container--title h2 {
-  font-size: var(--title-h2);
-  line-height: var(--lineS-h);
-}
-.main-intro-container--title p {
-  font-size: var(--paragraphs);
-  line-height: var(--lineS-p);
 }
 
 .product-detail--nexus-logo {
@@ -47,15 +34,6 @@
   left: calc(50% - 50px);
 }
 
-/* .product-detail--title h2 {
-  font-size: var(--title-h2);
-  line-height: var(--lineS-h);
-}
-
-.product-detail--title p {
-  font-size: var(--paragraphs);
-} */
-
 .product-detail--card {
   width: 90%;
   border-radius: 10px;
@@ -64,28 +42,18 @@
 .product-detail--card > span {
   width: 25px;
   height: 25px;
-  margin-bottom: 10px;
 }
-
-/* .product--card-title {
-  font-size: var(--title-h4);
-}
-.product--card-body {
-  font-size: var(--paragraphs);
-  line-height: var(--lineS-p);
-} */
 
 .games-img-container h2 {
   padding: 25px 0;
-  font-size: var(--title-h2);
   background-color: rgba(0, 0, 0, .6);
 }
 
-.nexus, .oxxo, .paypal, .bank {
+.paypal, .nexus, .bank, .oxxo {
   height: 40px;
 }
 
-.plans--card {
+.plans__card {
   min-width: 285px;
   padding: 40px 30px;
 }
@@ -96,21 +64,25 @@
   font-size: 18rem;
 }
 
-.plan-card--title {
-  font-size: var(--title-h3);
-}
 .plan-card--price {
   font-size: 80rem;
 }
 
 .plan-card--price span {
   font-size: var(--title-h4);
-  vertical-align: 40px;
+  vertical-align: 45px;
 }
 
 .plan-card--saving {
   font-size: 18rem;
 }
-.plan-card--ca {
-  margin: 15px auto 0;
+
+.footer__media-container > a {
+  font-size: 14rem;
+}
+.footer__media-container img {
+  height: 15px;
+}
+.footer__logo > a {
+  font-size: 16rem;
 }

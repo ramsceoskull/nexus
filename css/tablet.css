@@ -1,0 +1,167 @@
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+html::-webkit-scrollbar {
+  background-color: var(--softRed-variation);
+  width: 6px;
+}
+html::-webkit-scrollbar-thumb {
+  background-color: var(--softDark-primary);
+}
+
+.header__title-container h1 {
+  font-size: 34rem;
+}
+
+.header__title-container p {
+  font-size: 20rem;
+  line-height: 24rem;
+}
+
+.header__title-container a {
+  width: 249px;
+  font-size: 16rem;
+}
+
+.main__intro-container {
+  padding-top: 70px;
+}
+
+.main__intro-container .intro__img {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 60px;
+}
+
+.main__intro-container h2 {
+  font-size: 34rem;
+  line-height: 36rem;
+}
+
+.main__intro-container p {
+  font-size: 20rem;
+  line-height: 22rem;
+}
+
+.main__product-detail {
+  min-width: 768px;
+  height: auto;
+  padding: 20px 0 60px;
+}
+
+.product-cards--container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.product-detail--title {
+  margin: 50px auto 30px;
+}
+
+.product-detail--title h2 {
+  margin-bottom: 35rem;
+  font-size: 30rem;
+  line-height: 32rem;
+}
+
+.product-detail--title p {
+  font-size: 20rem;
+  line-height: 24rem;
+}
+
+.product-detail--card {
+  min-width: 288px;
+  max-width: 350px;
+  min-height: 150px;
+  margin: 15px auto;
+  padding: 15px;
+}
+
+.product--card-body {
+  font-weight: 500;
+}
+
+.games-img-container {
+  width: 100%;
+  min-width: 768px;
+  height: 90vh;
+}
+
+.games-img-container h2 {
+  font-size: 35rem;
+}
+
+.main-plans-container {
+  min-width: 768px;
+  padding-bottom: 50px;
+}
+
+.plans--title {
+  min-width: 748px;
+}
+
+.plans--title h2 {
+  font-size: 30rem;
+  line-height: 34rem;
+}
+
+.plans--title p {
+  width: 90%;
+  margin: 20px auto 40px;
+  font-size: 20rem;
+  line-height: 24rem;
+}
+
+.paypal, .nexus, .bank, .oxxo {
+  height: 50px;
+}
+
+.plans-container--slider {
+  justify-content: center;
+  overflow-x: hidden;
+  padding: 20px 0 40px;
+}
+
+.plans__card {
+  min-width: 240px;
+  height: auto;
+  padding: 40px 20px 30px;
+}
+
+.membership {
+  width: 160px;
+  height: 35px;
+  padding: 6px;
+  left: calc(50% - 80px);
+  top: -20px;
+  font-size: 16rem;
+  border-radius: 10px;
+}
+
+.plan-card--price {
+  padding: 5px 0;
+  font-size: 56rem;
+}
+
+.plan-card--price span {
+  font-size: 16rem;
+  margin-right: 10px;
+  vertical-align: 35px;
+}
+
+.plan-card--saving {
+  font-size: 16rem;
+}
+
+.card__button {
+  border-radius: 10px;
+  font-size: 15rem;
+  line-height: 20rem;
+}
+
+.footer__logo img {
+  width: 12vw;
+}
