@@ -12,14 +12,15 @@
 }
 
 .signup__container {
-  padding: 0 30px;
+  justify-content: space-around;
+  padding: 0 30px 70px;
 }
 .signup__container .title {
   margin-bottom: 20px;
 }
 
 .signup__container--form .input {
-  margin: 0 0 20px;
+  margin: 0 0 30px;
 }
 .signup__container--form .button {
   height: 50px;
@@ -27,6 +28,10 @@
   padding: 0 50px;
 }
 
+footer > nav {
+  padding: 20px 0;
+  justify-content: space-around;
+}
 footer a {
   font-size: 14rem;
 }
