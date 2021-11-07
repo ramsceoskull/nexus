@@ -114,6 +114,7 @@ main {
 .intro-container--info p {
   font-size: var(--paragraphs);
   line-height: var(--lineS-p);
+  font-weight: 600;
   color: #757575;
 }
 
@@ -154,6 +155,7 @@ main {
 
 .product-detail--title p {
   font-size: var(--paragraphs);
+  font-weight: 600;
   color: #808080;
 }
 
@@ -250,6 +252,7 @@ main {
 .plans--title > p {
   font-size: var(--paragraphs);
   line-height: var(--lineS-p);
+  font-weight: 600;
   color: var(--just-grey);
 }
 
