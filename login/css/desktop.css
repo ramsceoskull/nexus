@@ -1,0 +1,34 @@
+html, body {
+  min-height: 100vh;
+}
+
+header {
+  padding-left: 20px;
+  justify-content: left;
+}
+
+main {
+  padding: 20px 0 0;
+}
+
+.login__container {
+  min-width: 400px;
+  max-width: 35%;
+  padding: 50px 50px 70px;
+}
+.login__container--form .button {
+  width: 90%;
+  cursor: pointer;
+}
+.login__container--remember-me a:hover {
+  text-decoration: underline;
+}
+.login__container--social-media > a {
+  font-size: 16rem;
+}
+.login__container--social-media > a:hover {
+  text-decoration: underline;
+}
+.login__container--register > a:hover {
+  text-decoration: underline;
+}

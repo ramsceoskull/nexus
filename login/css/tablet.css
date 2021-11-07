@@ -1,0 +1,53 @@
+header > a {
+  font-size: var(--title-h2);
+}
+header img {
+  height: 15vh;
+}
+
+main {
+  display: flex;
+  height: auto;
+  padding: 10px 0 30px;
+  justify-content: center;
+}
+
+.login__container {
+  width: 50%;
+  min-height: 600px;
+  padding: 40px 50px 70px;
+  border: 2px solid white;
+  border-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+}
+.login__container .title {
+  margin: 0 0 40px;
+}
+.login__container--form .input {
+  margin-bottom: 30px;
+  padding: 0px 20px;
+  font-size: 20px;
+}
+.login__container--form .button {
+  border-radius: 25px;
+  font-size: 18rem;
+  background-color: rgba(255, 255, 255, 0.2);
+}
+.login__container--remember-me {
+  font-size: 14rem;
+}
+.login__container--remember-me > a {
+  font-size: 16rem;
+}
+.login__container--social-media {
+  margin: 35px 0 25px;
+}
+.login__container--social-media > a {
+  font-size: 18rem;
+}
+
+footer {
+  height: 10vh;
+  width: 100%;
+}

@@ -1,0 +1,46 @@
+:root {
+  /* Fonts-sizes */
+  --title-h1: 36rem;
+  --title-h2: 28rem;
+  --title-h3: 26rem;
+  --title-h4: 24rem;
+  --title-h5: 22rem;
+  --title-h6: 20rem;
+  --paragraphs: 16rem;
+  --lineS-p: 20rem;
+  --lineS-h: 34rem;
+}
+
+.login__container {
+  justify-content: space-around;
+  padding: 0 30px 90px;
+}
+.login__container .title {
+  margin: 10px 0 20px;
+}
+
+.login__container--form .input {
+  margin: 0 0 30px;
+}
+.login__container--form .button {
+  height: 50px;
+  margin-top: 0;
+  padding: 0 50px;
+}
+
+.login__container--remember-me {
+  margin: 10px 0 0;
+}
+.login__container--social-media {
+  margin: 20px 0 5px;
+}
+.login__container--social-media > a > img {
+  height: 40px;
+}
+.login__container--social-media > a {
+  margin-bottom: 15px;
+}
+
+.login__container--register {
+  margin-top: 20px;
+}
