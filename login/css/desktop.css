@@ -14,7 +14,7 @@ main {
 .login__container {
   min-width: 400px;
   max-width: 35%;
-  padding: 50px 50px 70px;
+  padding: 50px 60px 70px;
 }
 .login__container--form .button {
   width: 90%;
@@ -22,6 +22,9 @@ main {
 }
 .login__container--remember-me a:hover {
   text-decoration: underline;
+}
+.login__container--social-media {
+  align-self: flex-start;
 }
 .login__container--social-media > a {
   font-size: 16rem;
