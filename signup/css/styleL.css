@@ -1,0 +1,32 @@
+:root {
+  /* Fonts-sizes */
+  --title-h1: 32rem;
+  --title-h2: 28rem;
+  --title-h3: 26rem;
+  --title-h4: 24rem;
+  --title-h5: 22rem;
+  --title-h6: 20rem;
+  --paragraphs: 16rem;
+  --lineS-p: 20rem;
+  --lineS-h: 34rem;
+}
+
+.signup__container {
+  padding: 0 30px;
+}
+.signup__container .title {
+  margin-bottom: 20px;
+}
+
+.signup__container--form .input {
+  margin: 0 0 20px;
+}
+.signup__container--form .button {
+  height: 50px;
+  margin-top: 0px;
+  padding: 0 50px;
+}
+
+footer a {
+  font-size: 14rem;
+}
