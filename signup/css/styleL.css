@@ -1,6 +1,6 @@
 :root {
   /* Fonts-sizes */
-  --title-h1: 32rem;
+  --title-h1: 36rem;
   --title-h2: 28rem;
   --title-h3: 26rem;
   --title-h4: 24rem;
@@ -13,7 +13,7 @@
 
 .signup__container {
   justify-content: space-around;
-  padding: 0 30px 70px;
+  padding: 0 30px 80px;
 }
 .signup__container .title {
   margin-bottom: 20px;
