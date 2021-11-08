@@ -102,8 +102,9 @@ html::-webkit-scrollbar-track:active {
 }
 
 .product-detail--card > svg {
-  width: 25px;
-  height: 25px;
+  width: 30px;
+  height: 30px;
+  margin-bottom: 10px;
 }
 
 .product--card-body {

@@ -254,7 +254,7 @@ main {
 }
 .plans__methods-container a:hover {
   transition: all 1s ease;
-  opacity: .8;
+  opacity: .7;
 }
 .paypal, .nexus, .bank, .oxxo {
   display: inline-block;
