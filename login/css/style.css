@@ -144,7 +144,7 @@ main {
 .login__container--social-media > a > svg {
   height: 15px;
   width: 15px;
-  margin-right: 5px;
+  margin-right: 10px;
 }
 .login__container--social-media > a {
   display: flex;
