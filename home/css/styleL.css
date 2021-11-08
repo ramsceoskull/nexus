@@ -1,0 +1,12 @@
+:root {
+  /* Fonts-sizes */
+  --title-h1: 32rem;
+  --title-h2: 28rem;
+  --title-h3: 26rem;
+  --title-h4: 24rem;
+  --title-h5: 22rem;
+  --title-h6: 20rem;
+  --paragraphs: 16rem;
+  --lineS-p: 20rem;
+  --lineS-h: 34rem;
+}
