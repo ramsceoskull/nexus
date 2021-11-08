@@ -29,16 +29,17 @@
 }
 
 .login__container--remember-me {
-  margin: 10px 0 0;
+  margin: 20px 0 0;
 }
 .login__container--social-media {
-  margin: 20px 0 5px;
-}
-.login__container--social-media > a > img {
-  height: 40px;
+  margin: 30px 0 10px;
 }
 .login__container--social-media > a {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+}
+.login__container--social-media > a > svg {
+  height: 25px;
+  width: 25px;
 }
 
 .login__container--register {

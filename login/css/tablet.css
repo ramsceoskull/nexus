@@ -32,7 +32,6 @@ main {
 .login__container--form .button {
   border-radius: 25px;
   font-size: 18rem;
-  background-color: rgba(255, 255, 255, 0.2);
 }
 .login__container--remember-me {
   font-size: 14rem;
