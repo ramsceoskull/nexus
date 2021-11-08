@@ -80,14 +80,14 @@ header {
   z-index: 1;
   padding: 0 5px 0 10px;
   justify-content: space-between;
-  border-bottom: 3px solid var(--dark-primary);
+  border-bottom: 2px solid var(--dark-primary);
   background: linear-gradient(207.8deg, #201E1C 16.69%, #D00000 100%);
 }
 .btn-menu {
   display: flex;
   width: auto;
   height: inherit;
-  padding-bottom: 3px;
+  padding-bottom: 2px;
   align-items: center;
 }
 .btn-menu label {
@@ -108,6 +108,7 @@ header {
   display: flex;
   align-items: center;
   text-decoration: none;
+  color: var(--softRed-variation);
 }
 .header--logo img {
   height: 9vh;
@@ -115,12 +116,9 @@ header {
 .header--logo > h1 {
   font-weight: 700;
   font-size: var(--title-h4);
-  color: var(--softRed-variation);
 }
 .header--logo:hover {
   opacity: .9;
-}
-.header--logo > h1:hover {
   color: var(--dark-primary);
 }
 
@@ -138,18 +136,14 @@ header {
   opacity: .8;
 }
 .header__menu svg {
+  width: 100%;
+  height: 100%;
   color: var(--just-white);
 }
 .header__menu svg:hover {
   color: var(--softRed-variation);
 }
-.header__menu .menu--support {
-  display: none;
-}
-.header__menu .menu--home {
-  display: none;
-}
-.header__menu .menu--gallery {
+.menu--support, .menu--home, .menu--gallery, .header__menu span {
   display: none;
 }
 .header__menu a:hover {
@@ -190,10 +184,17 @@ header {
   transform: translateX(0%);
 }
 .menu__cont nav {
+  display: flex;
+  flex-direction: column;
   transform: translateY(15%);
 }
+.menu__cont nav > h4 {
+  margin-bottom: 5px;
+  font-size: var(--title-h4);
+  text-align: center;
+  color: var(--just-white);
+}
 .menu__cont nav a {
-  display: block;
   padding: 20px;
   color: #C7C7C7;
   border-left: 5px solid transparent;
@@ -224,7 +225,6 @@ footer {
   display: flex;
   width: inherit;
   height: auto;
-  align-items: center;
   flex-direction: column;
 }
 footer a:visited {
@@ -274,9 +274,10 @@ footer a:hover, .footer--up > nav a:hover {
   text-decoration: none;
   flex-direction: column;
   color: var(--soft-white);
-  font-size: 14rem;
+  font-size: 13rem;
 }
 .logo-container a:hover {
+  color: var(--just-red);
   opacity: .8;
 }
 .logo-container img {
@@ -287,6 +288,7 @@ footer a:hover, .footer--up > nav a:hover {
   display: flex;
   width: inherit;
   height: 12vh;
+  padding: 10px 0;
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
@@ -302,7 +304,7 @@ footer a:hover, .footer--up > nav a:hover {
   align-items: center;
 }
 .footer__call-service > svg {
-  width: 12rem;
-  height: 12rem;
+  width: 12px;
+  height: 12px;
   margin-right: 5px;
 }
