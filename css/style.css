@@ -171,26 +171,12 @@ main {
   box-shadow: 0 4px 8px rgba(0, 0, 0, .6);
 }
 
-.product-detail--card > span {
+.product-detail--card > svg {
   display: inline-block;
   width: 20px;
   height: 20px;
-  margin-bottom: 10px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.product-detail--card .clock {
-  background-image: url('../assets/svg/clock.svg');
-}
-.product-detail--card .eye {
-  background-image: url('../assets/svg/eye.svg');
-}
-.product-detail--card .dollar {
-  background-image: url('../assets/svg/dollar-sign.svg');
-}
-.product-detail--card .check-circle {
-  background-image: url('../assets/svg/check-circle.svg');
+  margin-bottom: 5px;
+  color: var(--red-variation);
 }
 
 .product--card-title {
@@ -253,7 +239,7 @@ main {
   font-size: var(--paragraphs);
   line-height: var(--lineS-p);
   font-weight: 600;
-  color: var(--just-grey);
+  color: #757575;
 }
 
 .plans__methods-container {
@@ -265,6 +251,10 @@ main {
 .plans__methods-container a {
   width: inherit;
   height: auto;
+}
+.plans__methods-container a:hover {
+  transition: all 1s ease;
+  opacity: .8;
 }
 .paypal, .nexus, .bank, .oxxo {
   display: inline-block;
@@ -402,21 +392,37 @@ main {
   color: var(--warm-black);
   background-color: var(--soft-white);
 }
+.card__button:hover {
+  background-color: var(--softRed-variation);
+  transition: all 1s ease;
+  color: white;
+}
 .bm__button {
   border: 2px solid var(--color-secondary);
+}
+.bm__button:hover {
+  color: var(--just-black);
+  background-color: var(--softBlue-variation);
 }
 .sm__button {
   border: 2px solid var(--just-black);
   background-color: var(--just-grey);
 }
+.sm__button:hover {
+  color: var(--just-black);
+  background-color: var(--soft-white);
+}
 
-.card__button span {
-  width: 25px;
-  height: 25px;
-  background-image: url('../assets/svg/right-arrow.svg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.card__button > svg {
+  width: 30px;
+  height: 30px;
+  color: var(--just-red);
+}
+.bm__button > svg {
+  color: var(--color-secondary);
+}
+.sm__button > svg {
+  color: unset;
 }
 
 
@@ -429,6 +435,10 @@ footer {
   padding: 5px 15px;
   align-items: center;
   background-color: var(--softDark-primary);
+}
+footer a:hover {
+  transition: all 1s ease;
+  color: var(--red-variation);
 }
 footer a:visited {
   color: #F26A4F;
@@ -446,17 +456,12 @@ footer a:visited {
   align-items: center;
   margin-bottom: 10px;
   text-decoration: none;
-  transition: all 1s ease;
   color: var(--soft-white);
   font-size: 12rem;
 }
 .footer__media-container img {
   height: 13px;
   margin-right: 3px;
-}
-.footer__media-container > a:hover {
-  transition: all 1s;
-  color: var(--red-variation);
 }
 
 .footer__logo {
@@ -467,6 +472,9 @@ footer a:visited {
   text-decoration: none;
   color: var(--soft-white);
   font-size: 14rem;
+}
+.footer__logo > a:hover {
+  opacity: .7;
 }
 .footer__logo img {
   width: 20vw;

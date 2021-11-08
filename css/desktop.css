@@ -1,3 +1,7 @@
+.product-detail--nexus-logo:hover {
+  cursor: default;
+}
+
 .plans__methods-container {
   width: 60%;
   margin-bottom: 40px;

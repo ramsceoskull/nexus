@@ -101,6 +101,11 @@ html::-webkit-scrollbar-track:active {
   margin: 15px auto;
 }
 
+.product-detail--card > svg {
+  width: 25px;
+  height: 25px;
+}
+
 .product--card-body {
   font-size: 18rem;
 }

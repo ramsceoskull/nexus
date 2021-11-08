@@ -82,6 +82,10 @@ header {
   font-size: 18rem;
 }
 
+.card__button {
+  height: 55px;
+}
+
 .footer__media-container > a {
   font-size: 14rem;
 }
