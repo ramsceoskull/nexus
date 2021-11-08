@@ -24,10 +24,10 @@ main {
   color: white;
 }
 .info > p {
-  font-size: 100rem;
+  font-size: 90rem;
 }
 .message__wrap--title {
-  font-size: 32rem;
+  font-size: 30rem;
 }
 
 footer a:hover {
