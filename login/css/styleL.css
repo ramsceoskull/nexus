@@ -32,10 +32,10 @@
   margin: 20px 0 0;
 }
 .login__container--social-media {
-  margin: 30px 0 10px;
+  margin: 35px 0 5px;
 }
 .login__container--social-media > a {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 .login__container--social-media > a > svg {
   height: 25px;
