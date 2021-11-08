@@ -19,38 +19,27 @@ main {
 
 .info {
   position: absolute;
-  left: calc(50% - 75px);
-  bottom: 150px;
-}
-.info > p {
-  font-size: 80rem;
+  left: calc(50% - 90px);
+  bottom: 160px;
 }
 .info > h3 {
   width: max-content;
-  left: calc(50% - 45px);
-  bottom: -210px;
-  font-size: 24rem;
+  left: calc(50% - 70px);
+  bottom: -230px;
 }
 
 footer {
   position: static;
 }
+footer a:hover {
+  color: initial;
+  text-decoration: underline;
+}
 .footer__support-container > a {
   font-weight: 500;
-  color: #FFFFFF;
-}
-.footer__support-container > a:visited {
-  color: #F26A4F;
-}
-.footer__support-container > a:hover {
-  text-decoration: underline;
-  color: #6A040F;
 }
 .footer__logo-container a {
   font-size: 14rem;
-}
-.footer__logo-container a:hover {
-  text-decoration: underline;
 }
 
 .aquarium {

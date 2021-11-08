@@ -55,12 +55,12 @@ main {
 }
 .message__wrap--title {
   color: #C7C7C7;
-  font-size: 18rem;
+  font-size: 28rem;
 }
 
 .text {
   color: #FAF8F7;
-  font-size: 70rem;
+  font-size: 90rem;
 }
 .animated {
   animation-duration: 2.5s;
@@ -82,15 +82,22 @@ footer {
   width: inherit;
   height: 10vh;
   bottom: 0;
-  padding: 0 10px;
+  padding: 0 10px 0 15px;
   justify-content: space-between;
   align-items: center;
 }
-
-footer > nav {
-  display: flex;
+footer a:visited {
+  color: #F26A4F;
+}
+footer a:hover {
+  transition: all 1s ease;
+  opacity: .7;
+  color: #6A040F;
 }
 
+.footer__support-container {
+  display: flex;
+}
 .footer__support-container > a {
   display: flex;
   align-items: center;
@@ -100,22 +107,25 @@ footer > nav {
   font-size: 14rem;
   color: #FFFFFF;
 }
-footer a:visited {
-  color: #F26A4F;
-}
-.footer__support-container img {
+.footer__support-container svg {
   width: 15px;
   height: 15px;
   margin-right: 5px;
 }
 .footer__logo-container {
-  text-align: center;
+  height: inherit;
 }
 .footer__logo-container img {
   height: 6vh;
 }
 .footer__logo-container > a {
+  display: flex;
+  flex-direction: column;
   text-decoration: none;
+  align-items: center;
   font-size: 10rem;
   color: #FFFFFF;
+}
+.footer__logo-container > a:hover {
+  color: #EF3C2D;
 }

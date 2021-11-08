@@ -24,18 +24,21 @@ main {
   color: white;
 }
 .info > p {
-  font-size: 60rem;
+  font-size: 100rem;
+}
+.message__wrap--title {
+  font-size: 32rem;
 }
 
+footer a:hover {
+  color: crimson;
+}
 .footer__support-container > a {
   font-weight: 600;
   font-size: 18rem;
   color: #C7C7C7;
 }
-.footer__support-container > a:visited {
-  color: #F26A4F;
-}
-.footer__support-container img {
+.footer__support-container svg {
   width: 18px;
   height: 18px;
 }
