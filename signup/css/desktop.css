@@ -15,6 +15,9 @@ main {
 .signup__container--form .button {
   cursor: pointer;
 }
+.input:hover {
+  border-bottom: 2px dashed var(--softRed-variation);
+}
 .signup__container--log a:hover {
   text-decoration: underline;
 }

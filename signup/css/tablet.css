@@ -31,7 +31,6 @@ main {
 .signup__container--form .button {
   border-radius: 25px;
   font-size: 18rem;
-  background-color: rgba(255, 255, 255, 0.2);
 }
 
 footer > nav {

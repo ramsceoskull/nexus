@@ -8,6 +8,11 @@ body {
   flex-direction: column;
   background: linear-gradient(207.8deg, #201E1C 16.69%, #D00000 100%);
 }
+body a:hover {
+  font-weight: bolder;
+  transition: all 1s ease;
+  color: var(--softRed-variation);
+}
 
 /* Header */
 header {
@@ -26,6 +31,9 @@ header a {
   font-weight: 700;
   font-size: var(--title-h3);
   color: var(--red-variation);
+}
+header a:hover {
+  opacity: .8;
 }
 
 
@@ -66,6 +74,13 @@ main {
   font-size: var(--title-h6);
   color: white;
 }
+.input:hover::placeholder {
+  color: var(--softRed-variation);
+}
+.input:hover {
+  color: var(--red-variation);
+  border-bottom: 2px solid var(--softRed-variation);
+}
 ::placeholder {
   color: white;
 }
@@ -77,10 +92,14 @@ main {
   letter-spacing: 1px;
   border-radius: 40px;
   border: none;
-  background-color: rgba(255, 255, 255, .3);
+  background-color: rgba(255, 255, 255, .2);
   font-size: var(--title-h6);
   font-weight: bold;
   color: white;
+}
+.button:hover {
+  transition: all 2s ease;
+  background-color: rgba(242, 106, 79, .4);
 }
 .signup__container--log {
   display: flex;
