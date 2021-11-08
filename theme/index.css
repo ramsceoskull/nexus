@@ -189,7 +189,7 @@ header {
   transform: translateY(15%);
 }
 .menu__cont nav > h4 {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   font-size: var(--title-h4);
   text-align: center;
   color: var(--just-white);

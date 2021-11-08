@@ -40,8 +40,11 @@ header {
 }
 
 .menu__cont nav > h4 {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-size: var(--title-h3);
+}
+.menu__cont nav > a {
+  font-size: 18rem;
 }
 .menu__cont label > svg {
   width: 22px;
@@ -50,13 +53,13 @@ header {
 
 
 .main__news {
-  width: 80%;
+  width: 85%;
   min-height: 33vh;
   border-radius: 15px;
   opacity: .7;
 }
 .main__news h3 {
-  min-width: 80vw;
+  min-width: 85vw;
 }
 
 .footer--up > nav {
