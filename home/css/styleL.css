@@ -32,8 +32,8 @@ header {
   width: 30%;
 }
 .header__menu > a {
-  height: 20px;
-  width: 20px;
+  height: 23px;
+  width: 23px;
 }
 .menu--support {
   display: initial;
@@ -53,13 +53,12 @@ header {
 
 
 .main__news {
-  width: 85%;
   min-height: 33vh;
   border-radius: 15px;
   opacity: .7;
 }
 .main__news h3 {
-  min-width: 85vw;
+  padding: 0 15px;
 }
 
 .footer--up > nav {

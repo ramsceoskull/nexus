@@ -43,6 +43,7 @@ main {
 }
 .main__news h3 {
   min-width: 90vw;
+  padding: 0 10px;
   font-family: var(--font3);
   font-size: var(--title-h1);
   color: var(--just-white);
