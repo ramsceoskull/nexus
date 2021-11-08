@@ -8,7 +8,8 @@ main {
 .main__news {
   overflow: hidden;
   width: 90%;
-  min-height: 175px;
+  /* min-height: 35vh; */
+  min-height: 28vh;
   margin: 20px auto;
   border-radius: 10px;
   opacity: .8;
