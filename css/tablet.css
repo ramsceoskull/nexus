@@ -117,6 +117,9 @@ html::-webkit-scrollbar-track:active {
   height: 90vh;
 }
 
+.games-img-container {
+  background-size: cover;
+}
 .games-img-container h2 {
   font-size: 35rem;
 }
@@ -142,8 +145,8 @@ html::-webkit-scrollbar-track:active {
   line-height: 24rem;
 }
 
-.paypal, .nexus, .bank, .oxxo {
-  height: 50px;
+.plans__methods-container {
+  width: 60%;
 }
 
 .plans-container--slider {
@@ -189,6 +192,9 @@ html::-webkit-scrollbar-track:active {
   line-height: 20rem;
 }
 
+.footer__media-container > a {
+  font-size: 16rem;
+}
 .footer__logo img {
   width: 12vw;
 }

@@ -54,8 +54,11 @@ header {
   background-color: rgba(0, 0, 0, .6);
 }
 
-.paypal, .nexus, .bank, .oxxo {
-  height: 40px;
+.plans__methods-container {
+  width: 75%;
+}
+.plans__methods-container > a, .nexus {
+  height: 30px;
 }
 
 .plans__card {

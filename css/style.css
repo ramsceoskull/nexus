@@ -197,7 +197,7 @@ main {
   width: 100%;
   height: 70vh;
   background-image: url('../assets/images/main-photo.jpg');
-  background-size: cover;
+  background-size: 150vw 80vh;
   background-position: center;
   background-repeat: no-repeat;
   text-align: center;
@@ -246,35 +246,29 @@ main {
   display: flex;
   margin: 30px auto;
   height: auto;
-  width: 80%;
+  width: 70%;
 }
-.plans__methods-container a {
-  width: inherit;
-  height: auto;
+.plans__methods-container > a {
+  width: 20%;
+  height: 20px;
 }
-.plans__methods-container a:hover {
+.plans__methods-container a:hover, .plans__methods-container svg:hover {
+  opacity: .9;
   transition: all 1s ease;
-  opacity: .7;
 }
-.paypal, .nexus, .bank, .oxxo {
-  display: inline-block;
-  width: inherit;
-  height: 30px;
+.plans__methods-container svg {
+  height: 100%;
+  color: var(--softDark-primary);
+}
+.plans__methods-container svg:hover {
+  color: var(--color-secondary);
+  opacity: 1;
+}
+.plans__methods-container > .nexus {
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-}
-.paypal {
-  background-image: url('../assets/icons/payPal-logo.png');
-}
-.nexus {
   background-image: url('../assets/icons/logo.png');
-}
-.bank {
-  background-image: url('../assets/icons/banamex.png');
-}
-.oxxo {
-  background-image: url('../assets/icons/oxxo-icon.png');
 }
 
 /* .methods--update {
