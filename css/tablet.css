@@ -37,6 +37,7 @@ html::-webkit-scrollbar-track:active {
 .header__title-container a {
   width: 249px;
   font-size: 16rem;
+  left: calc(50% - 120px);
 }
 
 .main__intro-container {
