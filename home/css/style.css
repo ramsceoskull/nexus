@@ -1,10 +1,4 @@
 /* Main */
-main {
-  width: inherit;
-  height: auto;
-  margin-top: 15vh;
-}
-
 .main__news {
   overflow: hidden;
   width: 90%;
