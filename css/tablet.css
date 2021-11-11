@@ -149,6 +149,9 @@ html::-webkit-scrollbar-track:active {
 .plans__methods-container {
   width: 60%;
 }
+.plans__methods-container > a, .nexus {
+  height: 35px;
+}
 
 .plans-container--slider {
   justify-content: center;
