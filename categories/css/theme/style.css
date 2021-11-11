@@ -1,0 +1,10 @@
+body {
+  background-image: url('../../../assets/images/home-background.jpg');
+}
+
+.header__menu {
+  width: 30%;
+}
+.menu--home {
+  display: inline-block;
+}
