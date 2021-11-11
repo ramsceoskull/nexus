@@ -98,6 +98,10 @@ footer a:hover {
 .footer__support-container {
   display: flex;
 }
+.footer__support-container svg:hover, .footer__support-container > a:last-child:hover {
+  color: black;
+  opacity: 1;
+}
 .footer__support-container > a {
   display: flex;
   align-items: center;
