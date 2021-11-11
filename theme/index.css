@@ -51,7 +51,7 @@ html {
 body {
   width: 100vw;
   height: inherit;
-  background: url('../assets/images/home-background.jpg');
+  background-image: url('../assets/images/home-background.jpg');
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -78,7 +78,7 @@ header {
   top: 0;
   left: 0;
   z-index: 1;
-  padding: 0 5px 0 10px;
+  padding: 0 5px 0 15px;
   justify-content: space-between;
   border-bottom: 2px solid var(--dark-primary);
   background: linear-gradient(207.8deg, #201E1C 16.69%, #D00000 100%);
@@ -141,7 +141,7 @@ header {
   color: var(--just-white);
 }
 .header__menu svg:hover {
-  color: var(--softRed-variation);
+  color: var(--red-variation);
 }
 .menu--support, .menu--home, .menu--gallery, .header__menu span {
   display: none;
@@ -218,6 +218,13 @@ header {
 }
 /*Fin de Menù lateral*/
 
+
+/* Main */
+main {
+  width: inherit;
+  height: auto;
+  margin-top: 15vh;
+}
 
 
 /* Footer */
