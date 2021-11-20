@@ -4,11 +4,113 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Nunito:wght@200;300;400;600;700;800;900&family=Oswald:wght@200;300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="../assets/icons/user.png">
+  <link rel="stylesheet" href="../theme/index.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/styleL.css" media="(min-width: 375px)">
+  <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)">
+  <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1024px)">
   <title>Categories | Nexus</title>
 </head>
 <body>
-  <header></header>
-  <main></main>
-  <footer></footer>
+  <header>
+    <div class="btn-menu">
+      <a class="header--logo" href="./">
+        <img src="../assets/icons/logo.png" alt="Logo de Nexus Store"><h1>Categorías</h1>
+      </a>
+    </div>
+    <nav class="header__menu">
+      <a href="./" class="menu--home">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"/>
+          <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
+        </svg><span>Inicio</span>
+      </a>
+      <a href="#support" class="menu--support">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+          <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
+          <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
+        </svg><span>Soporte</span>
+      </a>
+      <a href="#" class="menu--gallery">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"></path>
+        </svg><span>Galería</span>
+      </a>
+      <a href="../cart/" class="menu--cart">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-fill" viewBox="0 0 16 16">
+          <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path>
+        </svg><span>Carrito</span>
+      </a>
+      <a href="../profile/" class="menu--profile">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 16 16">
+          <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+          <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+        </svg><span>Perfil</span>
+      </a>
+    </nav>
+  </header>
+  <div class="capa"></div>
+  <main>
+    <article class="main__categories">
+      <a href="./1/"><h3>Consolas</h3></a>
+    </article>
+    <article  class="main__categories accesories">
+      <a href="./2/"><h3>Accesorios</h3></a>
+    </article>
+    <article class="main__categories videogames">
+      <a href="./3/"><h3>Videojuegos</h3></a>
+    </article>
+    <article class="main__categories offers">
+      <a href="./4/"><h3>Promociones</h3></a>
+    </article>
+    <article class="main__categories limited">
+      <a href="./5/"></a>
+    </article>
+  </main>
+
+  <footer id="support">
+    <section class="footer--up">
+      <nav>
+        <a href="../error/">
+          <img src="../assets/svg/gmail-logo.svg" alt="Gmail de Jackie">Jackie Domínguez
+        </a>
+        <a href="mailto:ramses.lanceno@alumnos.udg.mx">
+          <img src="../assets/svg/gmail-logo.svg" alt="Gmail de Ramsés">Ramsés Anceno
+        </a>
+        <a href="mailto:ruben.vivian@alumnos.udg.mx">
+          <img src="../assets/svg/gmail-logo.svg" alt="Gmail de Emilio">Emilio Vivian
+        </a>
+        <a href="mailto:froilan.villasenor@alumnos.udg.mx">
+          <img src="../assets/svg/gmail-logo.svg" alt="Gmail de Froilan">Froilan Villaseñor
+        </a>
+        <a href="mailto:cristobal.mtorres@alumnos.udg.mx">
+          <img src="../assets/svg/gmail-logo.svg" alt="Gmail de Cristobal">Cristobal Torres
+        </a>
+        <a href="mailto:ivan.trillo@alumnos.udg.mx">
+          <img src="../assets/svg/gmail-logo.svg" alt="Gmail de Trillo">Ivan Trillo
+        </a>
+      </nav>
+      <div class="logo-container">
+        <a href="../"><img src="../assets/icons/logo.png" alt="Nexus Store Logo"><p>Nexus 2021 ©</p></a>
+      </div>
+    </section>
+    <nav class="footer--down">
+      <a href="#">Términos de uso</a>
+      <a href="tel:+523333943613" class="footer__call-service">
+        <!-- Opción 1 -->
+        <!-- <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-forward-fill" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zm10.761.135a.5.5 0 0 1 .708 0l2.5 2.5a.5.5 0 0 1 0 .708l-2.5 2.5a.5.5 0 0 1-.708-.708L14.293 4H9.5a.5.5 0 0 1 0-1h4.793l-1.647-1.646a.5.5 0 0 1 0-.708z"/>
+        </svg> -->
+        <!-- Opción 2 -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone-outbound-fill" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511zM11 .5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V1.707l-4.146 4.147a.5.5 0 0 1-.708-.708L14.293 1H11.5a.5.5 0 0 1-.5-.5z"/>
+        </svg> - Centro de ayuda
+      </a>
+      <a href="#">Declaración de privacidad</a>
+    </nav>
+  </footer>
 </body>
 </html>
