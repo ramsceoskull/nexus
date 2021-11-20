@@ -1,0 +1,10 @@
+main {
+  min-height: 45vh;
+}
+
+.header__menu {
+  width: 40%;
+}
+.menu--home, .menu--gallery {
+  display: initial;
+}
