@@ -23,6 +23,18 @@ header > section h1 {
   font-size: var(--title-h1);
   color: var(--red-variation);
 }
+header > section > svg {
+  position: absolute;
+  display: none;
+  width: 20px;
+  height: 20px;
+  right: 10px;
+  top: 10px;
+  color: var(--soft-white);
+}
+header > section > .mobileQuerie {
+  display: initial;
+}
 
 .header__title-container {
   width: 90%;

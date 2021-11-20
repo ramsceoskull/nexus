@@ -14,6 +14,11 @@
 header {
   padding-bottom: 65px;
 }
+header > section > svg {
+  width: 25px;
+  height: 25px;
+  color: var(--softRed-variation);
+}
 
 .header__title-container p {
   font-size: 18rem;

@@ -1,3 +1,13 @@
+header > section > .tabletQuerie {
+  display: none;
+}
+header > section > .laptopQuerie {
+  display: initial;
+  right: 20px;
+  top: 10px;
+  color: var(--softRed-variation);
+}
+
 .product-detail--nexus-logo:hover {
   cursor: default;
 }

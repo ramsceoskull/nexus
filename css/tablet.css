@@ -25,15 +25,23 @@ html::-webkit-scrollbar-track:active {
   background-color: var(--red-variation);
 }
 
+header > section > .mobileQuerie {
+  display: none;
+}
+header > section > .tabletQuerie {
+  display: initial;
+  right: 15px;
+  top: 15px;
+  color: var(--just-white);
+}
+
 .header__title-container h1 {
   font-size: 34rem;
 }
-
 .header__title-container p {
   font-size: 20rem;
   line-height: 24rem;
 }
-
 .header__title-container a {
   width: 249px;
   font-size: 16rem;
