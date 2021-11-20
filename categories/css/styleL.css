@@ -55,7 +55,7 @@ header {
 .main__categories {
   min-height: 33vh;
   border-radius: 15px;
-  opacity: .9;
+  opacity: .7;
 }
 .main__categories h3 {
   padding: 20px 15px;
