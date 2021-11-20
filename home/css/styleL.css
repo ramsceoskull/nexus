@@ -30,6 +30,7 @@ header {
 
 .header__menu {
   width: 30%;
+  padding-bottom: 3px;
 }
 .header__menu > a {
   height: 23px;
@@ -60,6 +61,17 @@ header {
 .main__news h3 {
   padding: 0 15px;
 }
+
+.main__news > svg {
+  right: 15px;
+  width: 30px;
+  height: 30px;
+  background-color: rgba(0, 0, 0, .5);
+}
+.main__news > .categories {
+  border-radius: 10px;
+}
+
 
 .footer--up > nav {
   width: 70%;
