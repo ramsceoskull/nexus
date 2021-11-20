@@ -2,7 +2,7 @@
   width: 30%;
 }
 .menu--home {
-  display: inline-block;
+  display: initial;
 }
 .menu--profile svg {
   display: none;

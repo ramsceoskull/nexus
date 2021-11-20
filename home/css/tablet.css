@@ -1,0 +1,13 @@
+/* main {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+main > article {
+  min-width: 288px;
+  max-width: 380px;
+  min-height: 150px;
+  margin: 15px auto;
+} */
