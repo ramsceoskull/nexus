@@ -27,6 +27,9 @@
 .main__news:hover {
   opacity: 1;
 }
+.main__news.soon > a:hover {
+  cursor: not-allowed;
+}
 .main__news > svg {
   position: absolute;
   right: 10px;
@@ -37,6 +40,9 @@
   border-radius: 50px;
   color: var(--just-white);
   background-color: rgba(0, 0, 0, .6);
+}
+.main__news > svg:hover {
+  cursor: pointer;
 }
 .main__news > .categories {
   border-radius: 10px;
