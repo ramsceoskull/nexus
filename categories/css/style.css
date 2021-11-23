@@ -12,19 +12,19 @@
   background-repeat: no-repeat;
 }
 .main__categories:first-child {
-  background-image: url('../asset/src/consoles-cat.jpeg');
+  background-image: url('../asset/consoles-cat.jpeg');
 }
 .main__categories.accesories {
-  background-image: url('../asset/src/accesorios-cat.png');
+  background-image: url('../asset/accesorios-cat.png');
 }
 .main__categories.videogames {
-  background-image: url('../asset/src/videogames-cat.jpg');
+  background-image: url('../asset/videogames-cat.jpg');
 }
 .main__categories.offers {
-  background-image: url('../asset/src/offers-cat.jpg');
+  background-image: url('../asset/offers-cat.jpg');
 }
 .main__categories.limited {
-  background-image: url('../asset/src/limitedEdition-cat.jpg');
+  background-image: url('../asset/limitedEdition-cat.jpg');
 }
 .main__categories:hover {
   opacity: 1;
