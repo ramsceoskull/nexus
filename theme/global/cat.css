@@ -408,13 +408,15 @@ main {
   font-size: var(--paragraphs);
 }
 .product--price {
-  font-size: var(--paragraphs);
+  display: flex;
   padding: 0 10px 5px;
+  font-size: var(--paragraphs);
   border-bottom: 5px dotted var(--dark-primary);
 }
 .product--price > strong {
-  color: var(--softRed-variation);
+  margin-left: 10px;
   font-weight: 900;
+  color: var(--softRed-variation);
 }
 
 
