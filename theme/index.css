@@ -109,6 +109,7 @@ header {
 }
 .header--logo {
   display: flex;
+  height: 100%;
   align-items: center;
   text-decoration: none;
   color: var(--softRed-variation);
@@ -118,7 +119,7 @@ header {
 }
 .header--logo > h1 {
   font-weight: 700;
-  font-size: var(--title-h4);
+  font-size: var(--title-h3);
 }
 .header--logo:hover {
   opacity: .9;
@@ -127,7 +128,7 @@ header {
 
 .header__menu {
   display: flex;
-  width: 20%;
+  width: 30%;
   height: inherit;
   padding-bottom: 2px;
   align-items: center;
@@ -344,6 +345,9 @@ footer a:hover, .footer--up > nav a:hover {
     width: 25px;
     height: 25px;
   }
+  .header--logo {
+    padding-bottom: 3px;
+  }
   .header--logo img {
     height: 10vh;
   }
@@ -352,7 +356,7 @@ footer a:hover, .footer--up > nav a:hover {
   }
 
   .header__menu {
-    width: 30%;
+    width: 35%;
     padding-bottom: 3px;
   }
   .header__menu > a {
