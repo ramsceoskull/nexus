@@ -52,3 +52,34 @@ body {
   width: 100vw;
   height: auto;
 }
+
+@media (min-width: 375px) {
+  :root {
+    /* Fonts-sizes */
+    --title-h1: 40rem;
+    --title-h2: 28rem;
+    --title-h3: 26rem;
+    --title-h4: 24rem;
+    --title-h5: 22rem;
+    --title-h6: 20rem;
+    --paragraphs: 16rem;
+    --lineS-p: 20rem;
+    --lineS-h: 34rem;
+  }
+}
+
+@media (min-width: 768px) {
+  header > a {
+    font-size: var(--title-h2);
+  }
+  header img {
+    height: 15vh;
+  }
+}
+
+@media (min-width: 1024px) {
+  header {
+    padding-left: 20px;
+    justify-content: left;
+  }
+}

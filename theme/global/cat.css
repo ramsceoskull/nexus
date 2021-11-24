@@ -141,7 +141,7 @@ header {
 .header__menu svg:hover {
   color: var(--red-variation);
 }
-.menu--support, .menu--home, .menu--gallery, .header__menu span {
+.menu--support, .menu--gallery, .header__menu p {
   display: none;
 }
 .header__menu a:hover {

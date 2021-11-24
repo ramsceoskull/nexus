@@ -2,11 +2,6 @@ html, body {
   min-height: 100vh;
 }
 
-header {
-  padding-left: 20px;
-  justify-content: left;
-}
-
 main {
   padding: 20px 0 0;
 }

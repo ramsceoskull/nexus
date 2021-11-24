@@ -1,10 +1,3 @@
-header > a {
-  font-size: var(--title-h2);
-}
-header img {
-  height: 15vh;
-}
-
 main {
   display: flex;
   height: auto;

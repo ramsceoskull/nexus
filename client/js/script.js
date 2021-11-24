@@ -1,10 +1,10 @@
-// const handleChangeTable = () => {
-//   for (let item of document.querySelectorAll(".main-table")) {
-//     item.classList.toggle("hidden");
-//   }
-//   document.querySelector(".main__right-button").classList.toggle("invisible");
-//   document.querySelector(".main__left-button").classList.toggle("invisible");
-// };
+const handleChangeTable = () => {
+  for (let item of document.querySelectorAll(".main-table")) {
+    item.classList.toggle("hidden");
+  }
+  document.querySelector(".main__right-button").classList.toggle("invisible");
+  document.querySelector(".main__left-button").classList.toggle("invisible");
+};
 
 const mobileTableContainer = () => {
   document.querySelector(".main__left-button").classList.remove("hidden");
@@ -15,7 +15,7 @@ const mobileTableContainer = () => {
   document.getElementById("commissionsCard").classList.add("hidden");
 
   let plan = document.getElementsByClassName("plans--card")[1];
-  // plan.scrollIntoView({ inline: "center", behavior: "smooth" });
+  plan.scrollIntoView({ inline: "center", behavior: "smooth" });
 };
 
 const tabletTableContainer = () => {
