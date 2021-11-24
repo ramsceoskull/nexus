@@ -266,7 +266,7 @@ main {
   text-decoration: none;
   justify-content: center;
   font-family: var(--font3);
-  font-size: var(--title-h6);
+  font-size: var(--paragraphs);
   color: var(--red-variation);
   border: 2px solid rgba(255, 255, 255, .3);
   background-color: rgba(51, 51, 51, .5);
@@ -338,7 +338,7 @@ main {
   padding: 2px;
   border-radius: 5px;
   color: var(--softDark-primary);
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 
@@ -390,8 +390,15 @@ main {
   text-transform: uppercase;
 }
 .product--brand {
+  display: flex;
+  align-items: center;
   color: var(--red-variation);
   font-size: var(--title-h6);
+}
+.product--brand > svg {
+  margin-right: 5px;
+  height: 100%;
+  width: 20px;
 }
 .product--title {
   font-weight: 700;
@@ -408,7 +415,6 @@ main {
   font-size: var(--paragraphs);
 }
 .product--price {
-  display: flex;
   padding: 0 10px 5px;
   font-size: var(--paragraphs);
   border-bottom: 5px dotted var(--dark-primary);
@@ -416,6 +422,7 @@ main {
 .product--price > strong {
   margin-left: 10px;
   font-weight: 900;
+  font-size: var(--title-h6);
   color: var(--softRed-variation);
 }
 
@@ -470,5 +477,10 @@ main {
   .menu__cont label > svg {
     width: 22px;
     height: 22px;
+  }
+
+  .category--btn {
+    width: 130px;
+    height: 60px;
   }
 }
