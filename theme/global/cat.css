@@ -115,6 +115,10 @@ header {
   font-weight: 700;
   font-size: var(--title-h4);
 }
+.header--logo > p {
+  font-weight: 700;
+  font-size: var(--title-h5);
+}
 .header--logo:hover {
   opacity: .9;
   color: var(--dark-primary);
@@ -396,7 +400,7 @@ main {
   font-size: var(--title-h6);
 }
 .product--brand > svg {
-  margin-right: 5px;
+  margin: 0 5px;
   height: 100%;
   width: 20px;
 }
@@ -417,7 +421,10 @@ main {
 .product--price {
   padding: 0 10px 5px;
   font-size: var(--paragraphs);
-  border-bottom: 5px dotted var(--dark-primary);
+  /* Las siguientes 2 líneas están por confirmarse... */
+  border: 5px dotted var(--just-grey);
+  border-top: hidden;
+  /* border-bottom: 5px dotted var(--dark-primary); */
 }
 .product--price > strong {
   margin-left: 10px;
