@@ -2,28 +2,6 @@ html {
   overflow-y: scroll;
   overflow-x: hidden;
 }
-html::-webkit-scrollbar {
-  width: 8px;
-}
-html::-webkit-scrollbar-thumb {
-  background-color: var(--softDark-primary);
-  border-radius: 4px;
-}
-html::-webkit-scrollbar-thumb:hover {
-  background-color: var(--color-primary);
-  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.4);
-}
-html::-webkit-scrollbar-thumb:active {
-  background-color: var(--dark-primary);
-}
-html::-webkit-scrollbar-track {
-  background-color: var(--softRed-variation);
-  border-radius: 4px;
-}
-html::-webkit-scrollbar-track:hover,
-html::-webkit-scrollbar-track:active {
-  background-color: var(--red-variation);
-}
 
 header > section > .mobileQuerie {
   display: none;
@@ -122,11 +100,7 @@ header > section > .tabletQuerie {
 
 .games-img-container {
   width: 100%;
-  min-width: 768px;
   height: 90vh;
-}
-
-.games-img-container {
   background-size: cover;
 }
 .games-img-container h2 {

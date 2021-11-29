@@ -1,0 +1,14 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1440px;
+  margin: 15vh auto 5vh;
+}
+.main__categories {
+  max-width: 46vw;
+  min-height: 35vh;
+  margin: 15px auto;
+}
+.main__categories h3 {
+  min-width: 46vw;
+}

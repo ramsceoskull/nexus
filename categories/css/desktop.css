@@ -1,0 +1,7 @@
+.main__categories {
+  min-height: 50vh;
+  max-width: 40vw;
+}
+.main__categories h3 {
+  min-width: 40vw;
+}

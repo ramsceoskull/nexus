@@ -1,0 +1,7 @@
+.main__news {
+  min-height: 50vh;
+  max-width: 42vw;
+}
+.main__news h3 {
+  min-width: 42vw;
+}

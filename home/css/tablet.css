@@ -1,13 +1,14 @@
-/* main {
+main {
   display: flex;
   flex-wrap: wrap;
-  max-width: 900px;
-  margin: 0 auto;
+  max-width: 1440px;
+  margin: 15vh auto 5vh;
 }
-
-main > article {
-  min-width: 288px;
-  max-width: 380px;
-  min-height: 150px;
+.main__news {
+  max-width: 46vw;
+  min-height: 35vh;
   margin: 15px auto;
-} */
+}
+.main__news h3 {
+  min-width: 46vw;
+}
