@@ -448,7 +448,7 @@ footer a:hover, .footer--up > nav a:hover {
 }
 
 @media (min-width: 1024px) {
-  html {
+  /* html {
     overflow-x: hidden;
   }
   html::-webkit-scrollbar {
@@ -472,7 +472,7 @@ footer a:hover, .footer--up > nav a:hover {
   html::-webkit-scrollbar-track:hover,
   html::-webkit-scrollbar-track:active {
     background-color: var(--red-variation);
-  }
+  } */
 
   .btn-menu label > svg:hover {
     cursor: pointer;
@@ -480,7 +480,7 @@ footer a:hover, .footer--up > nav a:hover {
 
   .header__menu > a {
     height: auto;
-    padding: 0 15px 5px;
+    padding: 10px 15px 5px;
     border-bottom: 3px solid transparent;
   }
   .header__menu > a:hover {

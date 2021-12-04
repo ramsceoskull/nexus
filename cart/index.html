@@ -32,22 +32,11 @@
           <path fill-rule="evenodd" d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"/>
         </svg><p>Inicio</p>
       </a>
-      <a href="#support" class="menu--support">
-        <svg fill="currentColor" viewBox="0 0 16 16">
-          <path d="M7 14s-1 0-1-1 1-4 5-4 5 3 5 4-1 1-1 1H7zm4-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-          <path fill-rule="evenodd" d="M5.216 14A2.238 2.238 0 0 1 5 13c0-1.355.68-2.75 1.936-3.72A6.325 6.325 0 0 0 5 9c-4 0-5 3-5 4s1 1 1 1h4.216z"/>
-          <path d="M4.5 8a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/>
-        </svg><p>Soporte</p>
-      </a>
       <a href="../categories/" class="menu--gallery">
         <svg fill="currentColor" viewBox="0 0 16 16">
-          <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z"></path>
+          <path d="M4.502 9a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"></path>
+          <path d="M14.002 13a2 2 0 0 1-2 2h-10a2 2 0 0 1-2-2V5A2 2 0 0 1 2 3a2 2 0 0 1 2-2h10a2 2 0 0 1 2 2v8a2 2 0 0 1-1.998 2zM14 2H4a1 1 0 0 0-1 1h9.002a2 2 0 0 1 2 2v7A1 1 0 0 0 15 11V3a1 1 0 0 0-1-1zM2.002 4a1 1 0 0 0-1 1v8l2.646-2.354a.5.5 0 0 1 .63-.062l2.66 1.773 3.71-3.71a.5.5 0 0 1 .577-.094l1.777 1.947V5a1 1 0 0 0-1-1h-10z"></path>
         </svg><p>Galería</p>
-      </a>
-      <a href="../cart/" class="menu--cart">
-        <svg fill="currentColor" viewBox="0 0 16 16">
-          <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"></path>
-        </svg><p>Carrito</p>
       </a>
       <a href="../profile/" class="menu--profile">
         <svg fill="currentColor" viewBox="0 0 16 16">
@@ -78,77 +67,140 @@
     </aside>
   </div>
   <main>
-    <h2>Tu carrito:</h2>
-    <article class="cart__products">
-      <figure class="product__img-container">
-        <img src="../assets/images/main-pic.jpg" alt="Producto a comprar">
-      </figure>
-      <section class="product__body">
-        <h4 class="product--title">Titulo del articulo</h4>
-        <p class="product--description">Breve descripción del producto</p>
-        <div class="product__data">
-          <p class="product--price">$0.00</p>
-          <p class="product--status">No disponible</p>
+    <h2>
+      <svg fill="currentColor" class="bi bi-globe" viewBox="0 0 16 16">
+        <path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm7.5-6.923c-.67.204-1.335.82-1.887 1.855A7.97 7.97 0 0 0 5.145 4H7.5V1.077zM4.09 4a9.267 9.267 0 0 1 .64-1.539 6.7 6.7 0 0 1 .597-.933A7.025 7.025 0 0 0 2.255 4H4.09zm-.582 3.5c.03-.877.138-1.718.312-2.5H1.674a6.958 6.958 0 0 0-.656 2.5h2.49zM4.847 5a12.5 12.5 0 0 0-.338 2.5H7.5V5H4.847zM8.5 5v2.5h2.99a12.495 12.495 0 0 0-.337-2.5H8.5zM4.51 8.5a12.5 12.5 0 0 0 .337 2.5H7.5V8.5H4.51zm3.99 0V11h2.653c.187-.765.306-1.608.338-2.5H8.5zM5.145 12c.138.386.295.744.468 1.068.552 1.035 1.218 1.65 1.887 1.855V12H5.145zm.182 2.472a6.696 6.696 0 0 1-.597-.933A9.268 9.268 0 0 1 4.09 12H2.255a7.024 7.024 0 0 0 3.072 2.472zM3.82 11a13.652 13.652 0 0 1-.312-2.5h-2.49c.062.89.291 1.733.656 2.5H3.82zm6.853 3.472A7.024 7.024 0 0 0 13.745 12H11.91a9.27 9.27 0 0 1-.64 1.539 6.688 6.688 0 0 1-.597.933zM8.5 12v2.923c.67-.204 1.335-.82 1.887-1.855.173-.324.33-.682.468-1.068H8.5zm3.68-1h2.146c.365-.767.594-1.61.656-2.5h-2.49a13.65 13.65 0 0 1-.312 2.5zm2.802-3.5a6.959 6.959 0 0 0-.656-2.5H12.18c.174.782.282 1.623.312 2.5h2.49zM11.27 2.461c.247.464.462.98.64 1.539h1.835a7.024 7.024 0 0 0-3.072-2.472c.218.284.418.598.597.933zM10.855 4a7.966 7.966 0 0 0-.468-1.068C9.835 1.897 9.17 1.282 8.5 1.077V4h2.355z"></path>
+      </svg>Enviar a ...
+    </h2>
+    <section class="cart__products">
+      <article class="product">
+        <section class="product__data-container">
+          <figure class="product__img-container">
+            <img src="../assets/images/main-photo.jpg" alt="">
+          </figure>
+          <section class="product__info-container">
+            <h3 class="product--title">Titulo del producto</h3>
+            <p class="product--price">$ 0, 000.00</p>
+            <p class="product--shipment">
+              <svg fill="currentColor" viewBox="0 0 16 16">
+                <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5z"></path>
+              </svg>- FULL
+            </p>
+            <div class="product__amount-container">
+              <svg fill="currentColor" class="bi bi-dash-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7z"></path>
+              </svg>
+              <p class="product--items">1</p>
+              <svg fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"></path>
+              </svg>
+            </div>
+          </section>
+        </section>
+        <div class="product__options-container">
+          <a href="">
+            <svg fill="currentColor" class="bi bi-cart-x-fill" viewBox="0 0 16 16">
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7.354 5.646 8.5 6.793l1.146-1.147a.5.5 0 0 1 .708.708L9.207 7.5l1.147 1.146a.5.5 0 0 1-.708.708L8.5 8.207 7.354 9.354a.5.5 0 1 1-.708-.708L7.793 7.5 6.646 6.354a.5.5 0 1 1 .708-.708z"></path>
+            </svg>Eliminar
+          </a>
+          <a href="../error/">
+            <svg fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+            </svg>Comprar ahora
+          </a>
         </div>
-        <span class="product--remove"></span>
-      </section>
-    </article>
-    <article class="cart__products">
-      <figure class="product__img-container">
-        <img src="../assets/images/main-photo.jpg" alt="Producto a comprar">
-      </figure>
-      <section class="product__body">
-        <h4 class="product--title">Titulo del articulo</h4>
-        <p class="product--description">Breve descripción del producto</p>
-        <div class="product__data">
-          <p class="product--price">$0.00</p>
-          <p class="product--status">No disponible</p>
+      </article>
+      <article class="product">
+        <section class="product__data-container">
+          <figure class="product__img-container">
+            <img src="../assets/images/main-pic.jpg" alt="">
+          </figure>
+          <section class="product__info-container">
+            <h3 class="product--title">Titulo del producto</h3>
+            <p class="product--price">$ 0, 000.00</p>
+            <p class="product--shipment">
+              <svg fill="currentColor" viewBox="0 0 16 16">
+                <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5z"></path>
+              </svg>- FULL
+            </p>
+            <div class="product__amount-container">
+              <svg fill="currentColor" class="bi bi-dash-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7z"></path>
+              </svg>
+              <p class="product--items">1</p>
+              <svg fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"></path>
+              </svg>
+            </div>
+          </section>
+        </section>
+        <div class="product__options-container">
+          <a href="">
+            <svg fill="currentColor" class="bi bi-cart-x-fill" viewBox="0 0 16 16">
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7.354 5.646 8.5 6.793l1.146-1.147a.5.5 0 0 1 .708.708L9.207 7.5l1.147 1.146a.5.5 0 0 1-.708.708L8.5 8.207 7.354 9.354a.5.5 0 1 1-.708-.708L7.793 7.5 6.646 6.354a.5.5 0 1 1 .708-.708z"></path>
+            </svg>Eliminar
+          </a>
+          <a href="../error/">
+            <svg fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+            </svg>Comprar ahora
+          </a>
         </div>
-        <span class="product--remove"></span>
-      </section>
-    </article>
-    <article class="cart__products">
-      <figure class="product__img-container">
-        <img src="../assets/images/main-pic.jpg" alt="Producto a comprar">
-      </figure>
-      <section class="product__body">
-        <h4 class="product--title">Titulo del articulo</h4>
-        <p class="product--description">Breve descripción del producto</p>
-        <div class="product__data">
-          <p class="product--price">$0.00</p>
-          <p class="product--status">No disponible</p>
+      </article>
+      <article class="product">
+        <section class="product__data-container">
+          <figure class="product__img-container">
+            <img src="../assets/images/main-photo.jpg" alt="">
+          </figure>
+          <section class="product__info-container">
+            <h3 class="product--title">Titulo del producto</h3>
+            <p class="product--price">$ 0, 000.00</p>
+            <p class="product--shipment">
+              <svg fill="currentColor" viewBox="0 0 16 16">
+                <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5z"></path>
+              </svg>- FULL
+            </p>
+            <div class="product__amount-container">
+              <svg fill="currentColor" class="bi bi-dash-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM4.5 7.5a.5.5 0 0 0 0 1h7a.5.5 0 0 0 0-1h-7z"></path>
+              </svg>
+              <p class="product--items">1</p>
+              <svg fill="currentColor" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"></path>
+              </svg>
+            </div>
+          </section>
+        </section>
+        <div class="product__options-container">
+          <a href="">
+            <svg fill="currentColor" class="bi bi-cart-x-fill" viewBox="0 0 16 16">
+              <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zM7.354 5.646 8.5 6.793l1.146-1.147a.5.5 0 0 1 .708.708L9.207 7.5l1.147 1.146a.5.5 0 0 1-.708.708L8.5 8.207 7.354 9.354a.5.5 0 1 1-.708-.708L7.793 7.5 6.646 6.354a.5.5 0 1 1 .708-.708z"></path>
+            </svg>Eliminar
+          </a>
+          <a href="../error/">
+            <svg fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+              <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"></path>
+            </svg>Comprar ahora
+          </a>
         </div>
-        <span class="product--remove"></span>
-      </section>
-    </article>
-    <article class="cart__products">
-      <figure class="product__img-container">
-        <img src="../assets/images/main-photo.jpg" alt="Producto a comprar">
-      </figure>
-      <section class="product__body">
-        <h4 class="product--title">Titulo del articulo</h4>
-        <p class="product--description">Breve descripción del producto</p>
-        <div class="product__data">
-          <p class="product--price">$0.00</p>
-          <p class="product--status">No disponible</p>
-        </div>
-        <span class="product--remove"></span>
-      </section>
-    </article>
-    <article class="cart__products">
-      <figure class="product__img-container">
-        <img src="../assets/images/main-pic.jpg" alt="Producto a comprar">
-      </figure>
-      <section class="product__body">
-        <h4 class="product--title">Titulo del articulo</h4>
-        <p class="product--description">Breve descripción del producto</p>
-        <div class="product__data">
-          <p class="product--price">$0.00</p>
-          <p class="product--status">No disponible</p>
-        </div>
-        <span class="product--remove"></span>
-      </section>
-    </article>
+      </article>
+    </section>
+
+    <section class="products__buy-container">
+      <div class="delivery__info-container">
+        <p class="delivery--data">Enviar a #</p>
+        <p class="delivery--cost">Gratis</p>
+      </div>
+      <div class="product__result">
+        <h5 class="result--title">Total con envío</h5>
+        <p class="result--total"> $ 0, 000.00</p>
+      </div>
+      <a href="#" class="continue__shipping">
+        <svg fill="currentColor" class="bi bi-cart-check-fill" viewBox="0 0 16 16">
+          <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm-1.646-7.646-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L8 8.293l2.646-2.647a.5.5 0 0 1 .708.708z"></path>
+        </svg>- Continuar compra
+      </a>
+    </section>
   </main>
 </body>
 </html>

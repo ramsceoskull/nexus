@@ -214,9 +214,137 @@ header {
 
 /* Main */
 main {
+  display: flex;
   width: inherit;
   height: auto;
-  margin-top: 15vh;
+  margin-top: 10vh;
+  padding: 40px 0 70px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.product__img-container {
+  position: relative;
+  width: 80%;
+  height: auto;
+}
+.product__img-container > img {
+  width: 100%;
+}
+.product__img-container > svg {
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: 8px;
+  right: 8px;
+  padding: 5px;
+  border-radius: 10px;
+  color: var(--red-variation);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.product__img-container > svg:last-child {
+  display: none;
+}
+.product__img-container > svg:hover {
+  color: var(--softDark-primary);
+}
+
+.product__info-container {
+  display: flex;
+  width: 90%;
+  height: auto;
+  margin-top: 30px;
+  align-items: center;
+  flex-direction: column;
+}
+.product--log {
+  font-size: var(--paragraphs);
+  color: var(--just-grey);
+}
+.product--title {
+  margin-top: 5px;
+  font-size: var(--title-h4);
+  color: var(--color-primary);
+}
+
+.product__raiting-container {
+  display: flex;
+  margin: 10px 0;
+  align-items: center;
+}
+.product__raiting--value {
+  width: auto;
+  height: auto;
+}
+.product__raiting--value > svg {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  color: var(--red-variation);
+}
+.product__raiting--info {
+  font-size: var(--paragraphs);
+  color: var(--softRed-variation);
+}
+
+.product__cost-container {
+  display: flex;
+  align-items: center;
+}
+.product--price {
+  margin-right: 10px;
+  letter-spacing: 1px;
+  font-size: var(--title-h6);
+  color: var(--red-variation);
+}
+.product--monthly-payment {
+  font-size: var(--paragraphs);
+  color: var(--softRed-variation);
+}
+.product__deleviry-container {
+  display: flex;
+  width: 100%;
+  margin: 5px 0;
+  justify-content: space-around;
+}
+.product--arriving, .product--shipment {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: var(--paragraphs);
+  color: var(--just-red);
+}
+.product--arriving > svg, .product--shipment > svg {
+  width: 18px;
+  height: 18px;
+}
+.product--arriving > svg {
+  margin-right: 10px;
+}
+.product--arriving > span {
+  margin-right: 5px;
+  color: var(--just-white);
+  font-weight: 500;
+}
+
+/* .product__reimbursement-container {
+  display: flex;
+  align-items: center;
+} */
+.product--refund {
+  display: flex;
+  align-items: center;
+  font-size: var(--title-h6);
+  color: var(--softRed-variation);
+}
+.product--refund > svg {
+  width: 16px;
+  height: 16px;
+  margin-right: 5px;
+}
+.product--refund-info {
+  font-size: var(--paragraphs);
+  color: var(--just-grey);
 }
 
 
