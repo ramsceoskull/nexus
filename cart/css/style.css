@@ -88,7 +88,6 @@ main > h2 > svg {
   padding: 5px 10px;
   border-radius: 50px;
   align-items: center;
-  font-size: var(--paragraphs);
   background-color: rgba(157, 2, 8, .4);
 }
 .product__amount-container > svg {
@@ -101,6 +100,7 @@ main > h2 > svg {
 }
 .product__amount-container > .product--items {
   margin: 0 15px;
+  font-size: var(--paragraphs);
 }
 
 .product__options-container {

@@ -511,6 +511,9 @@ footer a:hover, .footer--up > nav a:hover {
   .footer--down {
     height: 10vh;
   }
+  .logo-container a {
+    font-size: 12rem;
+  }
   .logo-container img {
     width: 50px;
   }

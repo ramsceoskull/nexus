@@ -127,6 +127,9 @@ main {
   margin: 15px 0 25px;
   font-size: var(--paragraphs);
 }
+.login__container--remember-me label {
+  margin-left: 5px;
+}
 .login__container--remember-me a {
   margin-left: auto;
   text-decoration: none;

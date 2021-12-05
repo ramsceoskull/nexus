@@ -1,0 +1,35 @@
+main > h2 {
+  width: 60%;
+}
+
+.cart__products {
+  width: 60%;
+  padding: 20px 40px 70px;
+}
+
+.product__img-container {
+  width: 30%;
+}
+.product__info-container {
+  width: 70%;
+  padding-left: 25px;
+}
+
+.product__amount-container > svg {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+}
+.product__amount-container > .product--items {
+  font-size: 18rem;
+}
+
+.products__buy-container {
+  position: fixed;
+  width: 40%;
+  height: 91vh;
+  top: calc(10vh - 3px);
+  right: 0;
+  padding: 0 50px;
+  justify-content: center;
+}

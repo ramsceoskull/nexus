@@ -1,0 +1,15 @@
+.cart__products {
+  padding: 30px 40px 70px;
+}
+
+.product__data-container {
+  padding: 0 20px;
+}
+
+.product__info-container {
+  padding-left: 30px;
+}
+
+.products__buy-container {
+  padding: 40px 50px 60px;
+}
