@@ -1,0 +1,28 @@
+main > h2 > svg {
+  width: 25px;
+  height: 25px;
+}
+
+.product--shipment > svg {
+  width: 18px;
+  height: 18px;
+}
+
+.product__amount-container > svg {
+  width: 20px;
+  height: 20px;
+}
+
+.product__options-container > a > svg {
+  width: 20px;
+  height: 20px;
+}
+
+.products__buy-container {
+  padding: 20px 25px 60px;
+}
+
+.continue__shipping > svg {
+  width: 25px;
+  height: 25px;
+}

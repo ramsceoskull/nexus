@@ -137,22 +137,20 @@ header {
 .header__menu > a {
   width: auto;
   height: auto;
-  transition: all 0.3s ease;
   opacity: .8;
+  transition: all 0.3s ease;
+  color: var(--just-white);
+}
+.header__menu > a:hover {
+  color: var(--red-variation);
+  opacity: 1;
 }
 .header__menu svg {
   width: 18px;
   height: 18px;
-  color: var(--just-white);
-}
-.header__menu svg:hover {
-  color: var(--red-variation);
 }
 .header__menu p, .menu--home, .menu--gallery {
   display: none;
-}
-.header__menu a:hover {
-  opacity: 1;
 }
 /*Fin de Estilos para el encabezado*/
 
@@ -422,9 +420,6 @@ footer a:hover, .footer--up > nav a:hover {
   }
   .header__menu svg {
     margin-right: 5px;
-  }
-  .header__menu > a:hover {
-    color: var(--red-variation);
   }
   .header__menu p {
     display: initial;

@@ -126,22 +126,20 @@ header {
 .header__menu > a {
   width: 18px;
   height: 18px;
-  transition: all 0.3s ease;
   opacity: .8;
+  transition: all 0.3s ease;
+  color: var(--just-white);
+}
+.header__menu > a:hover {
+  color: var(--red-variation);
+  opacity: 1;
 }
 .header__menu svg {
   width: 100%;
   height: 100%;
-  color: var(--just-white);
-}
-.header__menu svg:hover {
-  color: var(--red-variation);
 }
 .menu--support, .menu--gallery, .header__menu p {
   display: none;
-}
-.header__menu a:hover {
-  opacity: 1;
 }
 /*Fin de Estilos para el encabezado*/
 
