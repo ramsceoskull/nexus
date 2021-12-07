@@ -366,10 +366,10 @@ main {
   width: 35%;
   height: auto;
 }
-.product__img-container > a > img {
+.product__img-container > img {
   width: 100%;
 }
-.product__img-container > a> span {
+.product__img-container > a {
   position: absolute;
   width: 5vw;
   height: 5vw;

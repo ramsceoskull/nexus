@@ -156,10 +156,8 @@
             ?>
             <article class="articles__product">
               <figure class="product__img-container">
-                <a href="../../private/like.php?upd=<?php echo $id?>">
-                  <img src="../<?php echo $img?>" alt="">
-                  <span class="product--like"></span>
-                </a>
+                <img src="../<?php echo $img?>" alt="">
+                <a href="../../private/like.php?upd=<?php echo $id?>" class="product--like"></a>
               </figure>
               <div class="product__data-container">
                 <span class="product--brand">
