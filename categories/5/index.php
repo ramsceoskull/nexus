@@ -24,7 +24,7 @@
         die();
     }
     $categoria = "edicion limitada";
-    $buscar = $_POST['buscar']; 
+    $buscar = isset($_POST['buscar']) ? $_POST['buscar'] : 'NoHayDatos';
     $sql = "SELECT * FROM producto WHERE INSTR (nombre, '$buscar') and categoria = '$categoria'";
     $ejecutar = mysqli_query($conexion, $sql);
 
@@ -136,11 +136,11 @@
         </svg>
         <form action="#" method="POST">
           <input type="search" placeholder="Buscar productos..." class="" id="" name="buscar">
-          <input type="submit" class="boton">
+          <input type="submit" class="boton" value="Buscar">
         </form>
       </section>
       <?php
-        if(isset($buscar)){
+        if($buscar != "NoHayDatos"){
             while ($row = $ejecutar->fetch_assoc()) {
                 $id= $row['id'];
                 $nombre = $row['nombre'];
@@ -152,10 +152,8 @@
             ?>
             <article class="articles__product">
               <figure class="product__img-container">
-                <a href="../../private/like.php?upd=<?php echo $id?>">
-                  <img src="../<?php echo $img?>" alt="">
-                  <span class="product--like"></span>
-                </a>
+                <img src="../<?php echo $img?>" alt="">
+                <a href="../../private/like.php?upd=<?php echo $id?>" class="product--like"></a>
               </figure>
               <div class="product__data-container">
                 <span class="product--brand">
