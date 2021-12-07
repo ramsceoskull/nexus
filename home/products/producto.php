@@ -250,7 +250,7 @@
             <li class="list--item">Descarga y juega más de 100 juegos de alta calidad, incluidos todos los títulos nuevos de Xbox Game Studios como Halo Infinite el mismo día de su lanzamiento, con Xbox Game Pass Ultimate (la membresía se vende por separado).</li>
             <li class="list--item">Con la Entrega Inteligente garantizas que juegas la mejor versión disponible de tu juego sin importar en qué consola estés jugando.</li>
           </ul> -->
-          <pre class="description__list list--item"><?php echo $descripcion?><pre>
+          <p class="description__list list--item"><?php echo $descripcion?><p>
         </section>
       </section>
     <?php

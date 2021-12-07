@@ -82,7 +82,7 @@ main > h2 > svg {
 }
 
 .product__amount-container {
-  display: flex;
+  display: none;
   width: max-content;
   margin-top: 10px;
   padding: 5px 10px;
@@ -101,6 +101,10 @@ main > h2 > svg {
 .product__amount-container > .product--items {
   margin: 0 15px;
   font-size: var(--paragraphs);
+}
+
+.product__amount-container {
+  display: none;
 }
 
 .product__options-container {

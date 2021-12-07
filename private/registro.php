@@ -14,7 +14,7 @@
         echo '
             <script>
                 alert("El correo ya existe");
-                window.location = "../../singup/index.html"
+                window.location = "../signup/index.html"
             </script>
         ';
         exit();
@@ -26,7 +26,7 @@
         echo '
             <script>
                 alert("Usuario almacenado correctamente");
-                window.location = "../../login/index.html"
+                window.location = "../login/index.html"
             </script>
         ';
     }

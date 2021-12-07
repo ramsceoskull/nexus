@@ -60,7 +60,7 @@
 .userD > label {
   font-weight: 600;
   font-size: var(--title-h5);
-  color: var(--softRed-variation);
+  color: var(--just-black);
 }
 
 .userD > input {

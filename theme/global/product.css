@@ -499,8 +499,8 @@ table {
   padding: 10px 10px 0 20px;
 }
 .list--item {
+  text-align: justify;
   font-size: 12rem;
-  margin-bottom: 10px;
 }
 
 
@@ -823,6 +823,9 @@ footer a:hover, .footer--up > nav a:hover {
   .description__list {
     width: 80%;
     margin: 0 auto;
+  }
+  .list--item {
+    font-size: 14rem;
   }
 
   .footer--up {

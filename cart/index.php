@@ -36,10 +36,10 @@
   <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&family=Nunito:wght@200;300;400;600;700;800;900&family=Oswald:wght@200;300;400;500;700&display=swap" rel="stylesheet">
   <link rel="icon" href="../assets/svg/cart-black.svg">
   <link rel="stylesheet" href="../theme/index.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/styleL.css" media="(min-width: 375px)">
-  <link rel="stylesheet" href="./css/tablet.css" media="(min-width: 768px)">
-  <link rel="stylesheet" href="./css/desktop.css" media="(min-width: 1024px)">
+  <link rel="stylesheet" href="./css/style.css?ts=<?=time()?>">
+  <link rel="stylesheet" href="./css/styleL.css?ts=<?=time()?>" media="(min-width: 375px)">
+  <link rel="stylesheet" href="./css/tablet.css?ts=<?=time()?>" media="(min-width: 768px)">
+  <link rel="stylesheet" href="./css/desktop.css?ts=<?=time()?>" media="(min-width: 1024px)">
   <title>Shopping Cart | Nexus</title>
 </head>
 <body>
@@ -127,7 +127,7 @@
               </figure>
               <section class="product__info-container">
                 <h3 class="product--title"><?php echo $nombre?></h3>
-                <p class="product--price"><?php echo $precio?></p>
+                <p class="product--price">$ <?php echo $precio?></p>
                 <p class="product--shipment">
                   <svg fill="currentColor" viewBox="0 0 16 16">
                     <path d="M5.52.359A.5.5 0 0 1 6 0h4a.5.5 0 0 1 .474.658L8.694 6H12.5a.5.5 0 0 1 .395.807l-7 9a.5.5 0 0 1-.873-.454L6.823 9.5H3.5a.5.5 0 0 1-.48-.641l2.5-8.5z"></path>
@@ -171,7 +171,7 @@
       </div>
       <div class="product__result">
         <h5 class="result--title">Total con envío</h5>
-        <p class="result--total"> <?php echo $total;?></p>
+        <p class="result--total">$ <?php echo $total;?></p>
       </div>
       <a href="#" class="continue__shipping">
         <svg fill="currentColor" class="bi bi-cart-check-fill" viewBox="0 0 16 16">
