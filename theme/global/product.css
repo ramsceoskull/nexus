@@ -351,6 +351,7 @@ main {
   color: var(--just-red);
   font-size: var(--title-h6);
 }
+
 .product--arriving > svg, .product--security > svg, .product--refund > svg {
   width: 20px;
   height: 20px;
@@ -499,7 +500,6 @@ table {
 }
 .list--item {
   font-size: 12rem;
-  text-align: justify;
   margin-bottom: 10px;
 }
 

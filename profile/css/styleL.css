@@ -1,0 +1,6 @@
+.welcome-greeting {
+    justify-content: center;
+}
+.welcome-greeting > a {
+    margin-left: 10px;
+}

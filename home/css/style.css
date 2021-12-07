@@ -13,9 +13,11 @@
   background-repeat: no-repeat;
 }
 .main__news:first-child {
+  display: none;
   background-image: url('../../assets/images/home-mainArticle.png');
 }
 .main__news.novedades {
+  display: none;
   background-image: url('../../assets/images/home-novedades.jpg');
 }
 .main__news.another {
