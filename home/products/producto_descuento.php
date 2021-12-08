@@ -119,11 +119,13 @@
             $nombre = $row['nombre'];
             $descripcion = $row['descripcion'];
             $precio = $row['precio'];
+            $precio_desc = $row['precio_desc'];
             $img = $row['img'];
             $estado = $row['disponible'];
-            $meses = $precio/12;
+            $meses = $precio_desc/12;
             $marca = $row['marca'];
             $plataforma = $row['plataforma'];
+            $procentaje = $row['descuento'];
 
 
     ?>
@@ -168,6 +170,8 @@
         <section class="product__info-container">
           <div class="product__cost-container">
             <p class="product--price">Precio: <span>$ <?php echo $precio?></span></p>
+            <p class="product--price">Con el: <span>% <?php echo $procentaje?></span></p>
+            <p class="product--price">queda en: <span>$ <?php echo $precio_desc?></span></p>
             <p class="product--monthly-payment">en <span>12 x $<?php echo round($meses,2)?> sin interés</span></p>
           </div>
           <div class="product__delivery-container">
